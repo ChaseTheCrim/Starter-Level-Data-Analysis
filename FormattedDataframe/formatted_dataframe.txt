@@ -1,0 +1,1002 @@
+|     | gender   | race/ethnicity                     | parental level of education   | lunch        | test preparation   |   math score |   reading score |   writing score |   average score |
+|:---:|:---------|:-----------------------------------|:------------------------------|:-------------|:-------------------|-------------:|----------------:|----------------:|----------------:|
+|  0  | female   | White - Irish                      | bachelor's degree             | standard     | none               |           72 |              72 |              74 |         72.6667 |
+|  1  | female   | White - Any other White background | some college                  | standard     | completed          |           69 |              90 |              88 |         82.3333 |
+|  2  | female   | White - Irish                      | master's degree               | standard     | none               |           90 |              95 |              93 |         92.6667 |
+|  3  | male     | White - British                    | associate's degree            | free/reduced | none               |           47 |              57 |              44 |         49.3333 |
+|  4  | male     | White - Any other White background | some college                  | standard     | none               |           76 |              78 |              75 |         76.3333 |
+|  5  | female   | White - Irish                      | associate's degree            | standard     | none               |           71 |              83 |              78 |         77.3333 |
+|  6  | female   | White - Irish                      | some college                  | standard     | completed          |           88 |              95 |              92 |         91.6667 |
+|  7  | male     | White - Irish                      | some college                  | free/reduced | none               |           40 |              43 |              39 |         40.6667 |
+|  8  | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | completed          |           64 |              64 |              67 |         65      |
+|  9  | female   | White - Irish                      | high school                   | free/reduced | none               |           38 |              60 |              50 |         49.3333 |
+| 10  | male     | White - Any other White background | associate's degree            | standard     | none               |           58 |              54 |              52 |         54.6667 |
+| 11  | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           40 |              52 |              43 |         45      |
+| 12  | female   | White - Irish                      | high school                   | standard     | none               |           65 |              81 |              73 |         73      |
+| 13  | male     | White - British                    | some college                  | standard     | completed          |           78 |              72 |              70 |         73.3333 |
+| 14  | female   | White - British                    | master's degree               | standard     | none               |           50 |              53 |              58 |         53.6667 |
+| 15  | female   | White - Any other White background | some high school              | standard     | none               |           69 |              75 |              78 |         74      |
+| 16  | male     | White - Any other White background | high school                   | standard     | none               |           88 |              89 |              86 |         87.6667 |
+| 17  | female   | White - Irish                      | some high school              | free/reduced | none               |           18 |              32 |              28 |         26      |
+| 18  | male     | White - Any other White background | master's degree               | free/reduced | completed          |           46 |              42 |              46 |         44.6667 |
+| 19  | female   | White - Any other White background | associate's degree            | free/reduced | none               |           54 |              58 |              61 |         57.6667 |
+| 20  | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           66 |              69 |              63 |         66      |
+| 21  | female   | White - Irish                      | some college                  | free/reduced | completed          |           65 |              75 |              70 |         70      |
+| 22  | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           44 |              54 |              53 |         50.3333 |
+| 23  | female   | White - Any other White background | some high school              | standard     | none               |           69 |              73 |              73 |         71.6667 |
+| 24  | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | completed          |           74 |              71 |              80 |         75      |
+| 25  | male     | White - British                    | master's degree               | free/reduced | none               |           73 |              74 |              72 |         73      |
+| 26  | male     | White - Irish                      | some college                  | standard     | none               |           69 |              54 |              55 |         59.3333 |
+| 27  | female   | White - Any other White background | bachelor's degree             | standard     | none               |           67 |              69 |              75 |         70.3333 |
+| 28  | male     | White - Any other White background | high school                   | standard     | none               |           70 |              70 |              65 |         68.3333 |
+| 29  | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           62 |              70 |              75 |         69      |
+| 30  | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           69 |              74 |              74 |         72.3333 |
+| 31  | female   | White - Irish                      | some college                  | standard     | none               |           63 |              65 |              61 |         63      |
+| 32  | female   | Mixed - White and Black African    | master's degree               | free/reduced | none               |           56 |              72 |              65 |         64.3333 |
+| 33  | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           40 |              42 |              38 |         40      |
+| 34  | male     | Mixed - White and Black African    | some college                  | standard     | none               |           97 |              87 |              82 |         88.6667 |
+| 35  | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           81 |              81 |              79 |         80.3333 |
+| 36  | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           74 |              81 |              83 |         79.3333 |
+| 37  | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           50 |              64 |              59 |         57.6667 |
+| 38  | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           75 |              90 |              88 |         84.3333 |
+| 39  | male     | White - Irish                      | associate's degree            | free/reduced | none               |           57 |              56 |              57 |         56.6667 |
+| 40  | male     | White - Any other White background | associate's degree            | free/reduced | none               |           55 |              61 |              54 |         56.6667 |
+| 41  | female   | White - Any other White background | associate's degree            | standard     | none               |           58 |              73 |              68 |         66.3333 |
+| 42  | female   | White - Irish                      | associate's degree            | standard     | none               |           53 |              58 |              65 |         58.6667 |
+| 43  | male     | White - Irish                      | some college                  | free/reduced | completed          |           59 |              65 |              66 |         63.3333 |
+| 44  | female   | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           50 |              56 |              54 |         53.3333 |
+| 45  | male     | White - Irish                      | associate's degree            | standard     | none               |           65 |              54 |              57 |         58.6667 |
+| 46  | female   | White - British                    | associate's degree            | standard     | completed          |           55 |              65 |              62 |         60.6667 |
+| 47  | female   | White - Any other White background | high school                   | standard     | none               |           66 |              71 |              76 |         71      |
+| 48  | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           57 |              74 |              76 |         69      |
+| 49  | male     | White - Any other White background | high school                   | standard     | completed          |           82 |              84 |              82 |         82.6667 |
+| 50  | male     | Mixed - White and Black African    | some college                  | standard     | none               |           53 |              55 |              48 |         52      |
+| 51  | male     | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           77 |              69 |              68 |         71.3333 |
+| 52  | male     | White - Any other White background | some college                  | standard     | none               |           53 |              44 |              42 |         46.3333 |
+| 53  | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           88 |              78 |              75 |         80.3333 |
+| 54  | female   | White - Any other White background | some high school              | free/reduced | completed          |           71 |              84 |              87 |         80.6667 |
+| 55  | female   | White - Any other White background | high school                   | free/reduced | none               |           33 |              41 |              43 |         39      |
+| 56  | female   | Mixed - White and Black African    | associate's degree            | standard     | completed          |           82 |              85 |              86 |         84.3333 |
+| 57  | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           52 |              55 |              49 |         52      |
+| 58  | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           58 |              59 |              58 |         58.3333 |
+| 59  | female   | White - Any other White background | some high school              | free/reduced | none               |            0 |              17 |              10 |          9      |
+| 60  | male     | Mixed - White and Black African    | bachelor's degree             | free/reduced | completed          |           79 |              74 |              72 |         75      |
+| 61  | male     | White - British                    | some high school              | free/reduced | none               |           39 |              39 |              34 |         37.3333 |
+| 62  | male     | White - British                    | associate's degree            | free/reduced | none               |           62 |              61 |              55 |         59.3333 |
+| 63  | female   | White - Any other White background | associate's degree            | standard     | none               |           69 |              80 |              71 |         73.3333 |
+| 64  | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           59 |              58 |              59 |         58.6667 |
+| 65  | male     | White - Irish                      | some high school              | standard     | none               |           67 |              64 |              61 |         64      |
+| 66  | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           45 |              37 |              37 |         39.6667 |
+| 67  | female   | White - Any other White background | some college                  | standard     | none               |           60 |              72 |              74 |         68.6667 |
+| 68  | male     | White - Irish                      | associate's degree            | free/reduced | none               |           61 |              58 |              56 |         58.3333 |
+| 69  | female   | White - Any other White background | associate's degree            | standard     | none               |           39 |              64 |              57 |         53.3333 |
+| 70  | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           58 |              63 |              73 |         64.6667 |
+| 71  | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           63 |              55 |              63 |         60.3333 |
+| 72  | female   | White - British                    | associate's degree            | free/reduced | none               |           41 |              51 |              48 |         46.6667 |
+| 73  | male     | White - Any other White background | some high school              | free/reduced | none               |           61 |              57 |              56 |         58      |
+| 74  | male     | White - Any other White background | some high school              | standard     | none               |           49 |              49 |              41 |         46.3333 |
+| 75  | male     | White - Irish                      | associate's degree            | free/reduced | none               |           44 |              41 |              38 |         41      |
+| 76  | male     | Mixed - White and Black African    | some high school              | standard     | none               |           30 |              26 |              22 |         26      |
+| 77  | male     | White - British                    | bachelor's degree             | standard     | completed          |           80 |              78 |              81 |         79.6667 |
+| 78  | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           61 |              74 |              72 |         69      |
+| 79  | female   | Mixed - White and Black African    | master's degree               | standard     | none               |           62 |              68 |              68 |         66      |
+| 80  | female   | White - Irish                      | associate's degree            | standard     | none               |           47 |              49 |              50 |         48.6667 |
+| 81  | male     | White - Irish                      | high school                   | free/reduced | none               |           49 |              45 |              45 |         46.3333 |
+| 82  | male     | White - British                    | some college                  | free/reduced | completed          |           50 |              47 |              54 |         50.3333 |
+| 83  | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           72 |              64 |              63 |         66.3333 |
+| 84  | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           42 |              39 |              34 |         38.3333 |
+| 85  | female   | White - Any other White background | some college                  | standard     | none               |           73 |              80 |              82 |         78.3333 |
+| 86  | female   | White - Any other White background | some college                  | free/reduced | none               |           76 |              83 |              88 |         82.3333 |
+| 87  | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           71 |              71 |              74 |         72      |
+| 88  | female   | White - British                    | some college                  | standard     | none               |           58 |              70 |              67 |         65      |
+| 89  | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           73 |              86 |              82 |         80.3333 |
+| 90  | female   | White - Any other White background | bachelor's degree             | standard     | none               |           65 |              72 |              74 |         70.3333 |
+| 91  | male     | White - Any other White background | high school                   | free/reduced | none               |           27 |              34 |              36 |         32.3333 |
+| 92  | male     | White - Any other White background | high school                   | standard     | none               |           71 |              79 |              71 |         73.6667 |
+| 93  | male     | White - Any other White background | associate's degree            | free/reduced | completed          |           43 |              45 |              50 |         46      |
+| 94  | female   | White - Irish                      | some college                  | standard     | none               |           79 |              86 |              92 |         85.6667 |
+| 95  | male     | White - Any other White background | associate's degree            | free/reduced | completed          |           78 |              81 |              82 |         80.3333 |
+| 96  | male     | White - Irish                      | some high school              | standard     | completed          |           65 |              66 |              62 |         64.3333 |
+| 97  | female   | Mixed - White and Black African    | some college                  | standard     | completed          |           63 |              72 |              70 |         68.3333 |
+| 98  | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           58 |              67 |              62 |         62.3333 |
+| 99  | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           65 |              67 |              62 |         64.6667 |
+| 100 | male     | White - Irish                      | some college                  | standard     | none               |           79 |              67 |              67 |         71      |
+| 101 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | completed          |           68 |              74 |              74 |         72      |
+| 102 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           85 |              91 |              89 |         88.3333 |
+| 103 | male     | White - Irish                      | high school                   | standard     | completed          |           60 |              44 |              47 |         50.3333 |
+| 104 | male     | White - Any other White background | some college                  | standard     | completed          |           98 |              86 |              90 |         91.3333 |
+| 105 | female   | White - Any other White background | some college                  | standard     | none               |           58 |              67 |              72 |         65.6667 |
+| 106 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           87 |             100 |             100 |         95.6667 |
+| 107 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           66 |              63 |              64 |         64.3333 |
+| 108 | female   | White - Irish                      | associate's degree            | free/reduced | none               |           52 |              76 |              70 |         66      |
+| 109 | female   | White - Irish                      | some high school              | standard     | none               |           70 |              64 |              72 |         68.6667 |
+| 110 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           77 |              89 |              98 |         88      |
+| 111 | male     | White - Any other White background | high school                   | standard     | none               |           62 |              55 |              49 |         55.3333 |
+| 112 | male     | White - British                    | associate's degree            | standard     | none               |           54 |              53 |              47 |         51.3333 |
+| 113 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           51 |              58 |              54 |         54.3333 |
+| 114 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           99 |             100 |             100 |         99.6667 |
+| 115 | male     | White - Any other White background | high school                   | standard     | none               |           84 |              77 |              74 |         78.3333 |
+| 116 | female   | White - Irish                      | bachelor's degree             | free/reduced | none               |           75 |              85 |              82 |         80.6667 |
+| 117 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           78 |              82 |              79 |         79.6667 |
+| 118 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           51 |              63 |              61 |         58.3333 |
+| 119 | female   | White - Any other White background | some college                  | standard     | none               |           55 |              69 |              65 |         63      |
+| 120 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           79 |              92 |              89 |         86.6667 |
+| 121 | male     | White - Irish                      | associate's degree            | standard     | completed          |           91 |              89 |              92 |         90.6667 |
+| 122 | female   | White - Any other White background | some college                  | standard     | completed          |           88 |              93 |              93 |         91.3333 |
+| 123 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           63 |              57 |              56 |         58.6667 |
+| 124 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           83 |              80 |              73 |         78.6667 |
+| 125 | female   | White - Irish                      | high school                   | standard     | none               |           87 |              95 |              86 |         89.3333 |
+| 126 | male     | White - Irish                      | some high school              | standard     | none               |           72 |              68 |              67 |         69      |
+| 127 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           65 |              77 |              74 |         72      |
+| 128 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           82 |              82 |              74 |         79.3333 |
+| 129 | female   | White - British                    | bachelor's degree             | standard     | none               |           51 |              49 |              51 |         50.3333 |
+| 130 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           89 |              84 |              82 |         85      |
+| 131 | male     | White - Any other White background | some high school              | free/reduced | completed          |           53 |              37 |              40 |         43.3333 |
+| 132 | male     | Mixed - White and Black African    | some college                  | free/reduced | completed          |           87 |              74 |              70 |         77      |
+| 133 | female   | White - Any other White background | some college                  | standard     | completed          |           75 |              81 |              84 |         80      |
+| 134 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | completed          |           74 |              79 |              75 |         76      |
+| 135 | male     | White - Any other White background | bachelor's degree             | standard     | none               |           58 |              55 |              48 |         53.6667 |
+| 136 | male     | White - Irish                      | some high school              | standard     | completed          |           51 |              54 |              41 |         48.6667 |
+| 137 | male     | Mixed - White and Black African    | high school                   | standard     | none               |           70 |              55 |              56 |         60.3333 |
+| 138 | female   | White - Any other White background | associate's degree            | standard     | none               |           59 |              66 |              67 |         64      |
+| 139 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           71 |              61 |              69 |         67      |
+| 140 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           76 |              72 |              71 |         73      |
+| 141 | female   | White - Any other White background | some college                  | free/reduced | none               |           59 |              62 |              64 |         61.6667 |
+| 142 | female   | Mixed - White and Black African    | some college                  | free/reduced | completed          |           42 |              55 |              54 |         50.3333 |
+| 143 | male     | White - British                    | high school                   | standard     | none               |           57 |              43 |              47 |         49      |
+| 144 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           88 |              73 |              78 |         79.6667 |
+| 145 | female   | White - Any other White background | some college                  | free/reduced | none               |           22 |              39 |              33 |         31.3333 |
+| 146 | male     | White - Irish                      | some high school              | standard     | none               |           88 |              84 |              75 |         82.3333 |
+| 147 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           73 |              68 |              66 |         69      |
+| 148 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | completed          |           68 |              75 |              81 |         74.6667 |
+| 149 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |          100 |             100 |              93 |         97.6667 |
+| 150 | male     | White - British                    | some high school              | standard     | completed          |           62 |              67 |              69 |         66      |
+| 151 | male     | White - British                    | bachelor's degree             | standard     | none               |           77 |              67 |              68 |         70.6667 |
+| 152 | female   | White - Irish                      | associate's degree            | standard     | completed          |           59 |              70 |              66 |         65      |
+| 153 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           54 |              49 |              47 |         50      |
+| 154 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           62 |              67 |              61 |         63.3333 |
+| 155 | female   | White - Any other White background | some college                  | standard     | completed          |           70 |              89 |              88 |         82.3333 |
+| 156 | female   | Mixed - White and Black African    | high school                   | free/reduced | completed          |           66 |              74 |              78 |         72.6667 |
+| 157 | male     | White - Irish                      | some college                  | free/reduced | none               |           60 |              60 |              60 |         60      |
+| 158 | female   | White - Irish                      | associate's degree            | standard     | completed          |           61 |              86 |              87 |         78      |
+| 159 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           66 |              62 |              64 |         64      |
+| 160 | male     | White - Irish                      | associate's degree            | free/reduced | completed          |           82 |              78 |              74 |         78      |
+| 161 | female   | Mixed - White and Black African    | some college                  | free/reduced | completed          |           75 |              88 |              85 |         82.6667 |
+| 162 | male     | White - Irish                      | master's degree               | free/reduced | none               |           49 |              53 |              52 |         51.3333 |
+| 163 | male     | White - Any other White background | high school                   | standard     | none               |           52 |              53 |              49 |         51.3333 |
+| 164 | female   | Mixed - White and Black African    | master's degree               | standard     | none               |           81 |              92 |              91 |         88      |
+| 165 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           96 |             100 |             100 |         98.6667 |
+| 166 | male     | White - Any other White background | high school                   | free/reduced | completed          |           53 |              51 |              51 |         51.6667 |
+| 167 | female   | White - Irish                      | master's degree               | free/reduced | completed          |           58 |              76 |              78 |         70.6667 |
+| 168 | female   | White - Irish                      | high school                   | standard     | completed          |           68 |              83 |              78 |         76.3333 |
+| 169 | female   | White - Any other White background | some college                  | free/reduced | completed          |           67 |              75 |              70 |         70.6667 |
+| 170 | male     | White - British                    | high school                   | standard     | completed          |           72 |              73 |              74 |         73      |
+| 171 | male     | Mixed - White and Black African    | some high school              | standard     | none               |           94 |              88 |              78 |         86.6667 |
+| 172 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           79 |              86 |              81 |         82      |
+| 173 | female   | White - Any other White background | associate's degree            | standard     | none               |           63 |              67 |              70 |         66.6667 |
+| 174 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           43 |              51 |              54 |         49.3333 |
+| 175 | female   | White - Any other White background | master's degree               | standard     | completed          |           81 |              91 |              87 |         86.3333 |
+| 176 | female   | White - Irish                      | high school                   | free/reduced | completed          |           46 |              54 |              58 |         52.6667 |
+| 177 | female   | White - Any other White background | associate's degree            | standard     | completed          |           71 |              77 |              77 |         75      |
+| 178 | female   | White - Irish                      | master's degree               | free/reduced | completed          |           52 |              70 |              62 |         61.3333 |
+| 179 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           97 |             100 |             100 |         99      |
+| 180 | male     | White - Any other White background | master's degree               | free/reduced | completed          |           62 |              68 |              75 |         68.3333 |
+| 181 | female   | White - Any other White background | some college                  | free/reduced | none               |           46 |              64 |              66 |         58.6667 |
+| 182 | female   | Mixed - White and Black African    | high school                   | standard     | none               |           50 |              50 |              47 |         49      |
+| 183 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           65 |              69 |              70 |         68      |
+| 184 | male     | White - Any other White background | some high school              | free/reduced | completed          |           45 |              52 |              49 |         48.6667 |
+| 185 | male     | White - Any other White background | associate's degree            | free/reduced | completed          |           65 |              67 |              65 |         65.6667 |
+| 186 | male     | Mixed - White and Black African    | high school                   | standard     | none               |           80 |              76 |              65 |         73.6667 |
+| 187 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           62 |              66 |              68 |         65.3333 |
+| 188 | male     | White - Irish                      | some high school              | free/reduced | none               |           48 |              52 |              45 |         48.3333 |
+| 189 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           77 |              88 |              87 |         84      |
+| 190 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           66 |              65 |              69 |         66.6667 |
+| 191 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           76 |              83 |              79 |         79.3333 |
+| 192 | female   | White - Irish                      | some high school              | standard     | none               |           62 |              64 |              66 |         64      |
+| 193 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           77 |              62 |              62 |         67      |
+| 194 | female   | White - Any other White background | master's degree               | standard     | completed          |           69 |              84 |              85 |         79.3333 |
+| 195 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           61 |              55 |              52 |         56      |
+| 196 | male     | White - Any other White background | some high school              | free/reduced | completed          |           59 |              69 |              65 |         64.3333 |
+| 197 | male     | Mixed - White and Black African    | high school                   | free/reduced | none               |           55 |              56 |              51 |         54      |
+| 198 | female   | White - Irish                      | some college                  | free/reduced | none               |           45 |              53 |              55 |         51      |
+| 199 | female   | White - Irish                      | bachelor's degree             | free/reduced | none               |           78 |              79 |              76 |         77.6667 |
+| 200 | female   | White - Any other White background | associate's degree            | standard     | completed          |           67 |              84 |              86 |         79      |
+| 201 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           65 |              81 |              77 |         74.3333 |
+| 202 | male     | White - Any other White background | associate's degree            | standard     | none               |           69 |              77 |              69 |         71.6667 |
+| 203 | female   | White - Irish                      | associate's degree            | standard     | none               |           57 |              69 |              68 |         64.6667 |
+| 204 | male     | White - Any other White background | some college                  | standard     | none               |           59 |              41 |              42 |         47.3333 |
+| 205 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           74 |              71 |              78 |         74.3333 |
+| 206 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           82 |              62 |              62 |         68.6667 |
+| 207 | male     | Mixed - White and Black African    | high school                   | standard     | completed          |           81 |              80 |              76 |         79      |
+| 208 | female   | White - Irish                      | some college                  | free/reduced | none               |           74 |              81 |              76 |         77      |
+| 209 | female   | White - Irish                      | some college                  | free/reduced | none               |           58 |              61 |              66 |         61.6667 |
+| 210 | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | completed          |           80 |              79 |              79 |         79.3333 |
+| 211 | male     | White - Any other White background | some college                  | free/reduced | none               |           35 |              28 |              27 |         30      |
+| 212 | female   | White - Any other White background | high school                   | free/reduced | none               |           42 |              62 |              60 |         54.6667 |
+| 213 | male     | White - Any other White background | associate's degree            | free/reduced | completed          |           60 |              51 |              56 |         55.6667 |
+| 214 | male     | Mixed - White and Black African    | high school                   | standard     | completed          |           87 |              91 |              81 |         86.3333 |
+| 215 | male     | White - Irish                      | some high school              | standard     | completed          |           84 |              83 |              75 |         80.6667 |
+| 216 | female   | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           83 |              86 |              88 |         85.6667 |
+| 217 | female   | White - Any other White background | high school                   | free/reduced | none               |           34 |              42 |              39 |         38.3333 |
+| 218 | male     | White - Irish                      | high school                   | free/reduced | none               |           66 |              77 |              70 |         71      |
+| 219 | male     | White - Irish                      | some high school              | standard     | completed          |           61 |              56 |              56 |         57.6667 |
+| 220 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           56 |              68 |              74 |         66      |
+| 221 | male     | White - Irish                      | associate's degree            | standard     | none               |           87 |              85 |              73 |         81.6667 |
+| 222 | female   | White - Any other White background | some high school              | free/reduced | none               |           55 |              65 |              62 |         60.6667 |
+| 223 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           86 |              80 |              75 |         80.3333 |
+| 224 | female   | White - Irish                      | associate's degree            | standard     | completed          |           52 |              66 |              73 |         63.6667 |
+| 225 | female   | Mixed - White and Black African    | master's degree               | free/reduced | none               |           45 |              56 |              54 |         51.6667 |
+| 226 | female   | White - Any other White background | some college                  | standard     | none               |           72 |              72 |              71 |         71.6667 |
+| 227 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           57 |              50 |              54 |         53.6667 |
+| 228 | male     | White - British                    | some high school              | free/reduced | none               |           68 |              72 |              64 |         68      |
+| 229 | female   | White - Any other White background | some college                  | standard     | completed          |           88 |              95 |              94 |         92.3333 |
+| 230 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           76 |              64 |              66 |         68.6667 |
+| 231 | male     | White - Any other White background | associate's degree            | standard     | none               |           46 |              43 |              42 |         43.6667 |
+| 232 | female   | White - Irish                      | bachelor's degree             | standard     | none               |           67 |              86 |              83 |         78.6667 |
+| 233 | male     | Mixed - White and Black African    | some high school              | standard     | none               |           92 |              87 |              78 |         85.6667 |
+| 234 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           83 |              82 |              84 |         83      |
+| 235 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           80 |              75 |              77 |         77.3333 |
+| 236 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           63 |              66 |              67 |         65.3333 |
+| 237 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           64 |              60 |              74 |         66      |
+| 238 | male     | White - Irish                      | some college                  | standard     | none               |           54 |              52 |              51 |         52.3333 |
+| 239 | male     | White - Any other White background | associate's degree            | standard     | none               |           84 |              80 |              80 |         81.3333 |
+| 240 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | completed          |           73 |              68 |              66 |         69      |
+| 241 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           80 |              83 |              83 |         82      |
+| 242 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           56 |              52 |              55 |         54.3333 |
+| 243 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           59 |              51 |              43 |         51      |
+| 244 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           75 |              74 |              69 |         72.6667 |
+| 245 | male     | White - Any other White background | associate's degree            | standard     | none               |           85 |              76 |              71 |         77.3333 |
+| 246 | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           89 |              76 |              74 |         79.6667 |
+| 247 | female   | White - Irish                      | high school                   | standard     | completed          |           58 |              70 |              68 |         65.3333 |
+| 248 | female   | White - Irish                      | high school                   | standard     | none               |           65 |              64 |              62 |         63.6667 |
+| 249 | male     | White - Any other White background | high school                   | standard     | none               |           68 |              60 |              53 |         60.3333 |
+| 250 | male     | White - British                    | some high school              | standard     | completed          |           47 |              49 |              49 |         48.3333 |
+| 251 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           71 |              83 |              83 |         79      |
+| 252 | female   | White - Irish                      | some high school              | standard     | completed          |           60 |              70 |              70 |         66.6667 |
+| 253 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           80 |              80 |              72 |         77.3333 |
+| 254 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           54 |              52 |              52 |         52.6667 |
+| 255 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           62 |              73 |              70 |         68.3333 |
+| 256 | female   | White - Any other White background | associate's degree            | free/reduced | none               |           64 |              73 |              68 |         68.3333 |
+| 257 | male     | White - Any other White background | associate's degree            | standard     | completed          |           78 |              77 |              77 |         77.3333 |
+| 258 | female   | White - Irish                      | some college                  | standard     | none               |           70 |              75 |              78 |         74.3333 |
+| 259 | female   | White - Any other White background | master's degree               | free/reduced | completed          |           65 |              81 |              81 |         75.6667 |
+| 260 | female   | White - Any other White background | some high school              | free/reduced | completed          |           64 |              79 |              77 |         73.3333 |
+| 261 | male     | White - Any other White background | some college                  | standard     | completed          |           79 |              79 |              78 |         78.6667 |
+| 262 | female   | White - Any other White background | some high school              | free/reduced | none               |           44 |              50 |              51 |         48.3333 |
+| 263 | female   | Mixed - White and Black African    | high school                   | standard     | none               |           99 |              93 |              90 |         94      |
+| 264 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           76 |              73 |              68 |         72.3333 |
+| 265 | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           59 |              42 |              41 |         47.3333 |
+| 266 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           63 |              75 |              81 |         73      |
+| 267 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           69 |              72 |              77 |         72.6667 |
+| 268 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           88 |              92 |              95 |         91.6667 |
+| 269 | female   | Mixed - White and Black African    | some college                  | free/reduced | none               |           71 |              76 |              70 |         72.3333 |
+| 270 | male     | White - Any other White background | bachelor's degree             | standard     | none               |           69 |              63 |              61 |         64.3333 |
+| 271 | male     | White - Any other White background | some college                  | standard     | none               |           58 |              49 |              42 |         49.6667 |
+| 272 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           47 |              53 |              58 |         52.6667 |
+| 273 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           65 |              70 |              71 |         68.6667 |
+| 274 | male     | White - Irish                      | some college                  | standard     | completed          |           88 |              85 |              76 |         83      |
+| 275 | male     | White - Any other White background | bachelor's degree             | standard     | none               |           83 |              78 |              73 |         78      |
+| 276 | female   | White - Any other White background | some high school              | standard     | completed          |           85 |              92 |              93 |         90      |
+| 277 | female   | Mixed - White and Black African    | high school                   | standard     | completed          |           59 |              63 |              75 |         65.6667 |
+| 278 | female   | White - Any other White background | some high school              | free/reduced | none               |           65 |              86 |              80 |         77      |
+| 279 | male     | White - Irish                      | bachelor's degree             | free/reduced | none               |           73 |              56 |              57 |         62      |
+| 280 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           53 |              52 |              42 |         49      |
+| 281 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           45 |              48 |              46 |         46.3333 |
+| 282 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           73 |              79 |              84 |         78.6667 |
+| 283 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           70 |              78 |              78 |         75.3333 |
+| 284 | female   | White - Irish                      | some high school              | standard     | none               |           37 |              46 |              46 |         43      |
+| 285 | male     | White - Irish                      | associate's degree            | standard     | completed          |           81 |              82 |              82 |         81.6667 |
+| 286 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           97 |              82 |              88 |         89      |
+| 287 | female   | White - Irish                      | some high school              | standard     | none               |           67 |              89 |              82 |         79.3333 |
+| 288 | male     | White - Irish                      | bachelor's degree             | free/reduced | none               |           88 |              75 |              76 |         79.6667 |
+| 289 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           77 |              76 |              77 |         76.6667 |
+| 290 | male     | White - Any other White background | associate's degree            | standard     | none               |           76 |              70 |              68 |         71.3333 |
+| 291 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           86 |              73 |              70 |         76.3333 |
+| 292 | male     | White - Any other White background | some high school              | standard     | completed          |           63 |              60 |              57 |         60      |
+| 293 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           65 |              73 |              75 |         71      |
+| 294 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | completed          |           78 |              77 |              80 |         78.3333 |
+| 295 | male     | White - Irish                      | associate's degree            | free/reduced | none               |           67 |              62 |              60 |         63      |
+| 296 | male     | White - British                    | some high school              | standard     | completed          |           46 |              41 |              43 |         43.3333 |
+| 297 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           71 |              74 |              68 |         71      |
+| 298 | male     | White - Any other White background | high school                   | free/reduced | completed          |           40 |              46 |              50 |         45.3333 |
+| 299 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           90 |              87 |              75 |         84      |
+| 300 | male     | White - British                    | some college                  | free/reduced | completed          |           81 |              78 |              81 |         80      |
+| 301 | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           56 |              54 |              52 |         54      |
+| 302 | female   | White - Any other White background | associate's degree            | standard     | completed          |           67 |              84 |              81 |         77.3333 |
+| 303 | male     | White - Irish                      | associate's degree            | standard     | none               |           80 |              76 |              64 |         73.3333 |
+| 304 | female   | White - Any other White background | associate's degree            | standard     | completed          |           74 |              75 |              83 |         77.3333 |
+| 305 | male     | White - British                    | some college                  | standard     | none               |           69 |              67 |              69 |         68.3333 |
+| 306 | male     | Mixed - White and Black African    | some college                  | standard     | completed          |           99 |              87 |              81 |         89      |
+| 307 | male     | White - Any other White background | some high school              | standard     | none               |           51 |              52 |              44 |         49      |
+| 308 | female   | White - Irish                      | associate's degree            | free/reduced | none               |           53 |              71 |              67 |         63.6667 |
+| 309 | female   | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           49 |              57 |              52 |         52.6667 |
+| 310 | female   | White - Irish                      | associate's degree            | standard     | none               |           73 |              76 |              80 |         76.3333 |
+| 311 | male     | White - Irish                      | bachelor's degree             | standard     | none               |           66 |              60 |              57 |         61      |
+| 312 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | completed          |           67 |              61 |              68 |         65.3333 |
+| 313 | female   | White - Any other White background | associate's degree            | free/reduced | completed          |           68 |              67 |              69 |         68      |
+| 314 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           59 |              64 |              75 |         66      |
+| 315 | male     | White - Any other White background | high school                   | standard     | none               |           71 |              66 |              65 |         67.3333 |
+| 316 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | completed          |           77 |              82 |              91 |         83.3333 |
+| 317 | male     | White - Any other White background | associate's degree            | standard     | none               |           83 |              72 |              78 |         77.6667 |
+| 318 | male     | White - Irish                      | bachelor's degree             | standard     | none               |           63 |              71 |              69 |         67.6667 |
+| 319 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           56 |              65 |              63 |         61.3333 |
+| 320 | female   | White - Any other White background | high school                   | free/reduced | completed          |           67 |              79 |              84 |         76.6667 |
+| 321 | female   | Mixed - White and Black African    | high school                   | standard     | none               |           75 |              86 |              79 |         80      |
+| 322 | female   | White - Any other White background | some college                  | standard     | none               |           71 |              81 |              80 |         77.3333 |
+| 323 | female   | White - Any other White background | some high school              | free/reduced | none               |           43 |              53 |              53 |         49.6667 |
+| 324 | female   | White - Any other White background | high school                   | free/reduced | none               |           41 |              46 |              43 |         43.3333 |
+| 325 | female   | White - Any other White background | some college                  | standard     | none               |           82 |              90 |              94 |         88.6667 |
+| 326 | male     | White - Any other White background | some college                  | standard     | none               |           61 |              61 |              62 |         61.3333 |
+| 327 | male     | White - British                    | some college                  | free/reduced | none               |           28 |              23 |              19 |         23.3333 |
+| 328 | male     | White - Any other White background | associate's degree            | standard     | completed          |           82 |              75 |              77 |         78      |
+| 329 | female   | White - Irish                      | some high school              | standard     | none               |           41 |              55 |              51 |         49      |
+| 330 | male     | White - Any other White background | high school                   | standard     | none               |           71 |              60 |              61 |         64      |
+| 331 | male     | White - Any other White background | associate's degree            | standard     | none               |           47 |              37 |              35 |         39.6667 |
+| 332 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           62 |              56 |              53 |         57      |
+| 333 | male     | White - Irish                      | associate's degree            | standard     | none               |           90 |              78 |              81 |         83      |
+| 334 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           83 |              93 |              95 |         90.3333 |
+| 335 | female   | White - Irish                      | some college                  | free/reduced | none               |           61 |              68 |              66 |         65      |
+| 336 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           76 |              70 |              69 |         71.6667 |
+| 337 | male     | White - Any other White background | associate's degree            | standard     | none               |           49 |              51 |              43 |         47.6667 |
+| 338 | female   | White - Irish                      | some high school              | free/reduced | none               |           24 |              38 |              27 |         29.6667 |
+| 339 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | completed          |           35 |              55 |              60 |         50      |
+| 340 | male     | White - Any other White background | high school                   | free/reduced | none               |           58 |              61 |              52 |         57      |
+| 341 | female   | White - Any other White background | high school                   | standard     | none               |           61 |              73 |              63 |         65.6667 |
+| 342 | female   | White - Irish                      | high school                   | standard     | completed          |           69 |              76 |              74 |         73      |
+| 343 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           67 |              72 |              67 |         68.6667 |
+| 344 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           79 |              73 |              67 |         73      |
+| 345 | female   | White - Any other White background | high school                   | standard     | none               |           72 |              80 |              75 |         75.6667 |
+| 346 | male     | White - Irish                      | some college                  | standard     | none               |           62 |              61 |              57 |         60      |
+| 347 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           77 |              94 |              95 |         88.6667 |
+| 348 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           75 |              74 |              66 |         71.6667 |
+| 349 | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           87 |              74 |              76 |         79      |
+| 350 | female   | White - Irish                      | bachelor's degree             | standard     | none               |           52 |              65 |              69 |         62      |
+| 351 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           66 |              57 |              52 |         58.3333 |
+| 352 | female   | White - Any other White background | some college                  | standard     | completed          |           63 |              78 |              80 |         73.6667 |
+| 353 | female   | White - Any other White background | associate's degree            | standard     | none               |           46 |              58 |              57 |         53.6667 |
+| 354 | female   | White - Any other White background | some college                  | standard     | none               |           59 |              71 |              70 |         66.6667 |
+| 355 | female   | White - Irish                      | bachelor's degree             | standard     | none               |           61 |              72 |              70 |         67.6667 |
+| 356 | male     | White - British                    | associate's degree            | standard     | none               |           63 |              61 |              61 |         61.6667 |
+| 357 | female   | White - Any other White background | some college                  | free/reduced | completed          |           42 |              66 |              69 |         59      |
+| 358 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           59 |              62 |              61 |         60.6667 |
+| 359 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           80 |              90 |              89 |         86.3333 |
+| 360 | female   | White - Irish                      | high school                   | standard     | none               |           58 |              62 |              59 |         59.6667 |
+| 361 | male     | White - Irish                      | some high school              | standard     | completed          |           85 |              84 |              78 |         82.3333 |
+| 362 | female   | White - Any other White background | some college                  | standard     | none               |           52 |              58 |              58 |         56      |
+| 363 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           27 |              34 |              32 |         31      |
+| 364 | male     | White - Any other White background | some college                  | standard     | none               |           59 |              60 |              58 |         59      |
+| 365 | male     | White - British                    | bachelor's degree             | free/reduced | completed          |           49 |              58 |              60 |         55.6667 |
+| 366 | male     | White - Any other White background | high school                   | standard     | completed          |           69 |              58 |              53 |         60      |
+| 367 | male     | White - Any other White background | bachelor's degree             | free/reduced | none               |           61 |              66 |              61 |         62.6667 |
+| 368 | female   | White - British                    | some high school              | free/reduced | none               |           44 |              64 |              58 |         55.3333 |
+| 369 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           73 |              84 |              85 |         80.6667 |
+| 370 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           84 |              77 |              71 |         77.3333 |
+| 371 | female   | White - Any other White background | some college                  | free/reduced | completed          |           45 |              73 |              70 |         62.6667 |
+| 372 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           74 |              74 |              72 |         73.3333 |
+| 373 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           82 |              97 |              96 |         91.6667 |
+| 374 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           59 |              70 |              73 |         67.3333 |
+| 375 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           46 |              43 |              41 |         43.3333 |
+| 376 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           80 |              90 |              82 |         84      |
+| 377 | female   | Mixed - White and Black Caribbean  | master's degree               | free/reduced | completed          |           85 |              95 |             100 |         93.3333 |
+| 378 | female   | White - British                    | some high school              | standard     | none               |           71 |              83 |              77 |         77      |
+| 379 | male     | White - British                    | bachelor's degree             | standard     | none               |           66 |              64 |              62 |         64      |
+| 380 | female   | White - Irish                      | associate's degree            | standard     | none               |           80 |              86 |              83 |         83      |
+| 381 | male     | White - Any other White background | associate's degree            | standard     | completed          |           87 |             100 |              95 |         94      |
+| 382 | male     | White - Any other White background | master's degree               | free/reduced | none               |           79 |              81 |              71 |         77      |
+| 383 | female   | Mixed - White and Black African    | some high school              | free/reduced | none               |           38 |              49 |              45 |         44      |
+| 384 | female   | White - British                    | some high school              | free/reduced | none               |           38 |              43 |              43 |         41.3333 |
+| 385 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           67 |              76 |              75 |         72.6667 |
+| 386 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           64 |              73 |              70 |         69      |
+| 387 | female   | White - Any other White background | associate's degree            | free/reduced | none               |           57 |              78 |              67 |         67.3333 |
+| 388 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           62 |              64 |              64 |         63.3333 |
+| 389 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           73 |              70 |              75 |         72.6667 |
+| 390 | male     | Mixed - White and Black African    | some high school              | free/reduced | completed          |           73 |              67 |              59 |         66.3333 |
+| 391 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           77 |              68 |              77 |         74      |
+| 392 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           76 |              67 |              67 |         70      |
+| 393 | male     | White - Any other White background | associate's degree            | standard     | completed          |           57 |              54 |              56 |         55.6667 |
+| 394 | female   | White - Any other White background | some high school              | standard     | completed          |           65 |              74 |              77 |         72      |
+| 395 | male     | White - British                    | high school                   | free/reduced | none               |           48 |              45 |              41 |         44.6667 |
+| 396 | female   | White - Irish                      | high school                   | free/reduced | none               |           50 |              67 |              63 |         60      |
+| 397 | female   | White - Any other White background | associate's degree            | standard     | none               |           85 |              89 |              95 |         89.6667 |
+| 398 | male     | White - Irish                      | some high school              | standard     | none               |           74 |              63 |              57 |         64.6667 |
+| 399 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           60 |              59 |              54 |         57.6667 |
+| 400 | female   | White - Any other White background | some high school              | standard     | completed          |           59 |              54 |              67 |         60      |
+| 401 | male     | White - British                    | some college                  | standard     | none               |           53 |              43 |              43 |         46.3333 |
+| 402 | female   | White - British                    | some college                  | free/reduced | none               |           49 |              65 |              55 |         56.3333 |
+| 403 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           88 |              99 |             100 |         95.6667 |
+| 404 | female   | White - Any other White background | high school                   | standard     | none               |           54 |              59 |              62 |         58.3333 |
+| 405 | female   | White - Any other White background | some high school              | standard     | none               |           63 |              73 |              68 |         68      |
+| 406 | male     | White - Irish                      | associate's degree            | standard     | completed          |           65 |              65 |              63 |         64.3333 |
+| 407 | female   | White - Irish                      | associate's degree            | standard     | none               |           82 |              80 |              77 |         79.6667 |
+| 408 | female   | Mixed - White and Black Caribbean  | high school                   | free/reduced | completed          |           52 |              57 |              56 |         55      |
+| 409 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           87 |              84 |              85 |         85.3333 |
+| 410 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | completed          |           70 |              71 |              74 |         71.6667 |
+| 411 | male     | Mixed - White and Black African    | some college                  | standard     | completed          |           84 |              83 |              78 |         81.6667 |
+| 412 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           71 |              66 |              60 |         65.6667 |
+| 413 | male     | White - Irish                      | some high school              | standard     | completed          |           63 |              67 |              67 |         65.6667 |
+| 414 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           51 |              72 |              79 |         67.3333 |
+| 415 | male     | Mixed - White and Black African    | high school                   | standard     | none               |           84 |              73 |              69 |         75.3333 |
+| 416 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           71 |              74 |              68 |         71      |
+| 417 | male     | White - Any other White background | associate's degree            | standard     | none               |           74 |              73 |              67 |         71.3333 |
+| 418 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           68 |              59 |              62 |         63      |
+| 419 | male     | Mixed - White and Black African    | high school                   | free/reduced | completed          |           57 |              56 |              54 |         55.6667 |
+| 420 | female   | White - Any other White background | associate's degree            | free/reduced | completed          |           82 |              93 |              93 |         89.3333 |
+| 421 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           57 |              58 |              64 |         59.6667 |
+| 422 | female   | Mixed - White and Black Caribbean  | master's degree               | free/reduced | completed          |           47 |              58 |              67 |         57.3333 |
+| 423 | female   | White - British                    | some high school              | standard     | completed          |           59 |              85 |              80 |         74.6667 |
+| 424 | male     | White - Irish                      | some college                  | free/reduced | none               |           41 |              39 |              34 |         38      |
+| 425 | female   | White - Any other White background | some college                  | free/reduced | none               |           62 |              67 |              62 |         63.6667 |
+| 426 | male     | White - Any other White background | bachelor's degree             | standard     | none               |           86 |              83 |              86 |         85      |
+| 427 | male     | White - Any other White background | some high school              | free/reduced | none               |           69 |              71 |              65 |         68.3333 |
+| 428 | male     | White - British                    | some high school              | free/reduced | none               |           65 |              59 |              53 |         59      |
+| 429 | male     | White - Any other White background | some high school              | free/reduced | none               |           68 |              63 |              54 |         61.6667 |
+| 430 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           64 |              66 |              59 |         63      |
+| 431 | female   | White - Any other White background | high school                   | standard     | none               |           61 |              72 |              70 |         67.6667 |
+| 432 | male     | White - Any other White background | high school                   | standard     | none               |           61 |              56 |              55 |         57.3333 |
+| 433 | female   | White - British                    | some high school              | free/reduced | none               |           47 |              59 |              50 |         52      |
+| 434 | male     | White - Any other White background | some high school              | standard     | none               |           73 |              66 |              66 |         68.3333 |
+| 435 | male     | White - Any other White background | some college                  | free/reduced | completed          |           50 |              48 |              53 |         50.3333 |
+| 436 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           75 |              68 |              64 |         69      |
+| 437 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           75 |              66 |              73 |         71.3333 |
+| 438 | male     | White - Any other White background | high school                   | standard     | none               |           70 |              56 |              51 |         59      |
+| 439 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           89 |              88 |              82 |         86.3333 |
+| 440 | female   | White - Any other White background | some college                  | standard     | completed          |           67 |              81 |              79 |         75.6667 |
+| 441 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           78 |              81 |              80 |         79.6667 |
+| 442 | female   | White - British                    | some high school              | free/reduced | none               |           59 |              73 |              69 |         67      |
+| 443 | female   | White - Irish                      | associate's degree            | standard     | none               |           73 |              83 |              76 |         77.3333 |
+| 444 | male     | White - British                    | some high school              | free/reduced | none               |           79 |              82 |              73 |         78      |
+| 445 | female   | White - Any other White background | some high school              | standard     | completed          |           67 |              74 |              77 |         72.6667 |
+| 446 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           69 |              66 |              60 |         65      |
+| 447 | male     | White - Any other White background | high school                   | standard     | completed          |           86 |              81 |              80 |         82.3333 |
+| 448 | male     | White - Irish                      | high school                   | standard     | none               |           47 |              46 |              42 |         45      |
+| 449 | male     | White - Irish                      | associate's degree            | standard     | none               |           81 |              73 |              72 |         75.3333 |
+| 450 | female   | White - Any other White background | some college                  | free/reduced | completed          |           64 |              85 |              85 |         78      |
+| 451 | female   | Mixed - White and Black African    | some college                  | standard     | none               |          100 |              92 |              97 |         96.3333 |
+| 452 | female   | White - Any other White background | associate's degree            | free/reduced | none               |           65 |              77 |              74 |         72      |
+| 453 | male     | White - Any other White background | some college                  | free/reduced | none               |           65 |              58 |              49 |         57.3333 |
+| 454 | female   | White - Any other White background | associate's degree            | free/reduced | none               |           53 |              61 |              62 |         58.6667 |
+| 455 | male     | White - Any other White background | bachelor's degree             | free/reduced | none               |           37 |              56 |              47 |         46.6667 |
+| 456 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           79 |              89 |              89 |         85.6667 |
+| 457 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           53 |              54 |              48 |         51.6667 |
+| 458 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | none               |          100 |             100 |             100 |        100      |
+| 459 | male     | White - Irish                      | high school                   | standard     | completed          |           72 |              65 |              68 |         68.3333 |
+| 460 | male     | White - Any other White background | bachelor's degree             | free/reduced | none               |           53 |              58 |              55 |         55.3333 |
+| 461 | male     | White - Irish                      | some college                  | free/reduced | none               |           54 |              54 |              45 |         51      |
+| 462 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           71 |              70 |              76 |         72.3333 |
+| 463 | female   | White - Any other White background | some college                  | free/reduced | none               |           77 |              90 |              91 |         86      |
+| 464 | male     | White - British                    | bachelor's degree             | standard     | completed          |           75 |              58 |              62 |         65      |
+| 465 | female   | White - Any other White background | some college                  | standard     | none               |           84 |              87 |              91 |         87.3333 |
+| 466 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           26 |              31 |              38 |         31.6667 |
+| 467 | male     | White - British                    | high school                   | free/reduced | completed          |           72 |              67 |              65 |         68      |
+| 468 | female   | White - British                    | high school                   | free/reduced | completed          |           77 |              88 |              85 |         83.3333 |
+| 469 | male     | White - Any other White background | some college                  | standard     | none               |           91 |              74 |              76 |         80.3333 |
+| 470 | female   | White - Any other White background | associate's degree            | standard     | completed          |           83 |              85 |              90 |         86      |
+| 471 | female   | White - Any other White background | high school                   | standard     | none               |           63 |              69 |              74 |         68.6667 |
+| 472 | female   | White - Any other White background | associate's degree            | standard     | completed          |           68 |              86 |              84 |         79.3333 |
+| 473 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           59 |              67 |              61 |         62.3333 |
+| 474 | female   | White - Irish                      | associate's degree            | standard     | completed          |           90 |              90 |              91 |         90.3333 |
+| 475 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | completed          |           71 |              76 |              83 |         76.6667 |
+| 476 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           76 |              62 |              66 |         68      |
+| 477 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           80 |              68 |              72 |         73.3333 |
+| 478 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           55 |              64 |              70 |         63      |
+| 479 | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           76 |              71 |              67 |         71.3333 |
+| 480 | male     | White - Irish                      | high school                   | standard     | completed          |           73 |              71 |              68 |         70.6667 |
+| 481 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           52 |              59 |              56 |         55.6667 |
+| 482 | male     | White - Any other White background | some college                  | free/reduced | none               |           68 |              68 |              61 |         65.6667 |
+| 483 | male     | White - British                    | high school                   | standard     | none               |           59 |              52 |              46 |         52.3333 |
+| 484 | female   | White - Irish                      | associate's degree            | standard     | none               |           49 |              52 |              54 |         51.6667 |
+| 485 | male     | White - Any other White background | high school                   | standard     | none               |           70 |              74 |              71 |         71.6667 |
+| 486 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           61 |              47 |              56 |         54.6667 |
+| 487 | female   | White - Any other White background | associate's degree            | free/reduced | none               |           60 |              75 |              74 |         69.6667 |
+| 488 | male     | White - Irish                      | some high school              | standard     | completed          |           64 |              53 |              57 |         58      |
+| 489 | male     | White - British                    | associate's degree            | free/reduced | completed          |           79 |              82 |              82 |         81      |
+| 490 | female   | White - British                    | associate's degree            | free/reduced | none               |           65 |              85 |              76 |         75.3333 |
+| 491 | female   | White - Any other White background | associate's degree            | standard     | none               |           64 |              64 |              70 |         66      |
+| 492 | female   | White - Any other White background | some college                  | standard     | none               |           83 |              83 |              90 |         85.3333 |
+| 493 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           81 |              88 |              90 |         86.3333 |
+| 494 | female   | White - Irish                      | high school                   | standard     | none               |           54 |              64 |              68 |         62      |
+| 495 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           68 |              64 |              66 |         66      |
+| 496 | female   | White - Any other White background | some college                  | standard     | none               |           54 |              48 |              52 |         51.3333 |
+| 497 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           59 |              78 |              76 |         71      |
+| 498 | female   | White - Irish                      | some high school              | standard     | none               |           66 |              69 |              68 |         67.6667 |
+| 499 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           76 |              71 |              72 |         73      |
+| 500 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           74 |              79 |              82 |         78.3333 |
+| 501 | female   | White - Irish                      | associate's degree            | standard     | completed          |           94 |              87 |              92 |         91      |
+| 502 | male     | White - Any other White background | some college                  | free/reduced | none               |           63 |              61 |              54 |         59.3333 |
+| 503 | female   | Mixed - White and Black African    | associate's degree            | standard     | completed          |           95 |              89 |              92 |         92      |
+| 504 | female   | Mixed - White and Black Caribbean  | master's degree               | free/reduced | none               |           40 |              59 |              54 |         51      |
+| 505 | female   | White - Irish                      | some high school              | standard     | none               |           82 |              82 |              80 |         81.3333 |
+| 506 | male     | White - British                    | high school                   | standard     | none               |           68 |              70 |              66 |         68      |
+| 507 | male     | White - Irish                      | bachelor's degree             | free/reduced | none               |           55 |              59 |              54 |         56      |
+| 508 | male     | White - Any other White background | master's degree               | standard     | none               |           79 |              78 |              77 |         78      |
+| 509 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           86 |              92 |              87 |         88.3333 |
+| 510 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           76 |              71 |              73 |         73.3333 |
+| 511 | male     | White - British                    | some high school              | standard     | none               |           64 |              50 |              43 |         52.3333 |
+| 512 | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           62 |              49 |              52 |         54.3333 |
+| 513 | female   | White - Irish                      | some high school              | standard     | completed          |           54 |              61 |              62 |         59      |
+| 514 | female   | White - Irish                      | master's degree               | free/reduced | completed          |           77 |              97 |              94 |         89.3333 |
+| 515 | female   | White - Any other White background | some high school              | standard     | completed          |           76 |              87 |              85 |         82.6667 |
+| 516 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           74 |              89 |              84 |         82.3333 |
+| 517 | female   | Mixed - White and Black African    | some college                  | standard     | completed          |           66 |              74 |              73 |         71      |
+| 518 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           66 |              78 |              78 |         74      |
+| 519 | female   | White - Irish                      | high school                   | free/reduced | completed          |           67 |              78 |              79 |         74.6667 |
+| 520 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           71 |              49 |              52 |         57.3333 |
+| 521 | female   | White - Any other White background | associate's degree            | standard     | none               |           91 |              86 |              84 |         87      |
+| 522 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           69 |              58 |              57 |         61.3333 |
+| 523 | male     | White - Any other White background | master's degree               | free/reduced | none               |           54 |              59 |              50 |         54.3333 |
+| 524 | male     | White - Any other White background | high school                   | standard     | completed          |           53 |              52 |              49 |         51.3333 |
+| 525 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           68 |              60 |              59 |         62.3333 |
+| 526 | male     | White - Any other White background | some high school              | free/reduced | completed          |           56 |              61 |              60 |         59      |
+| 527 | female   | White - Any other White background | high school                   | free/reduced | none               |           36 |              53 |              43 |         44      |
+| 528 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           29 |              41 |              47 |         39      |
+| 529 | female   | White - Any other White background | associate's degree            | standard     | none               |           62 |              74 |              70 |         68.6667 |
+| 530 | female   | White - Any other White background | associate's degree            | standard     | completed          |           68 |              67 |              73 |         69.3333 |
+| 531 | female   | White - Any other White background | some high school              | standard     | none               |           47 |              54 |              53 |         51.3333 |
+| 532 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           62 |              61 |              58 |         60.3333 |
+| 533 | female   | Mixed - White and Black African    | associate's degree            | standard     | completed          |           79 |              88 |              94 |         87      |
+| 534 | male     | White - Irish                      | high school                   | standard     | completed          |           73 |              69 |              68 |         70      |
+| 535 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           66 |              83 |              83 |         77.3333 |
+| 536 | male     | White - Any other White background | associate's degree            | standard     | completed          |           51 |              60 |              58 |         56.3333 |
+| 537 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           51 |              66 |              62 |         59.6667 |
+| 538 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           85 |              66 |              71 |         74      |
+| 539 | male     | White - British                    | associate's degree            | standard     | completed          |           97 |              92 |              86 |         91.6667 |
+| 540 | male     | White - Any other White background | high school                   | standard     | completed          |           75 |              69 |              68 |         70.6667 |
+| 541 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           79 |              82 |              80 |         80.3333 |
+| 542 | female   | White - Any other White background | associate's degree            | standard     | none               |           81 |              77 |              79 |         79      |
+| 543 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           82 |              95 |              89 |         88.6667 |
+| 544 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           64 |              63 |              66 |         64.3333 |
+| 545 | male     | Mixed - White and Black African    | some high school              | free/reduced | completed          |           78 |              83 |              80 |         80.3333 |
+| 546 | female   | White - British                    | some high school              | standard     | completed          |           92 |             100 |              97 |         96.3333 |
+| 547 | male     | White - Any other White background | high school                   | standard     | completed          |           72 |              67 |              64 |         67.6667 |
+| 548 | female   | White - Any other White background | high school                   | free/reduced | none               |           62 |              67 |              64 |         64.3333 |
+| 549 | male     | White - Any other White background | master's degree               | standard     | none               |           79 |              72 |              69 |         73.3333 |
+| 550 | male     | White - Any other White background | some high school              | free/reduced | none               |           79 |              76 |              65 |         73.3333 |
+| 551 | male     | White - Irish                      | bachelor's degree             | free/reduced | completed          |           87 |              90 |              88 |         88.3333 |
+| 552 | female   | White - Irish                      | associate's degree            | standard     | none               |           40 |              48 |              50 |         46      |
+| 553 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           77 |              62 |              64 |         67.6667 |
+| 554 | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           53 |              45 |              40 |         46      |
+| 555 | female   | White - Any other White background | some college                  | free/reduced | none               |           32 |              39 |              33 |         34.6667 |
+| 556 | female   | White - Any other White background | associate's degree            | standard     | completed          |           55 |              72 |              79 |         68.6667 |
+| 557 | male     | White - Any other White background | master's degree               | free/reduced | none               |           61 |              67 |              66 |         64.6667 |
+| 558 | female   | White - Irish                      | associate's degree            | free/reduced | none               |           53 |              70 |              70 |         64.3333 |
+| 559 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           73 |              66 |              62 |         67      |
+| 560 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           74 |              75 |              79 |         76      |
+| 561 | female   | White - Any other White background | some college                  | standard     | none               |           63 |              74 |              74 |         70.3333 |
+| 562 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           96 |              90 |              92 |         92.6667 |
+| 563 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           63 |              80 |              80 |         74.3333 |
+| 564 | male     | White - Irish                      | bachelor's degree             | free/reduced | none               |           48 |              51 |              46 |         48.3333 |
+| 565 | male     | White - Irish                      | associate's degree            | standard     | none               |           48 |              43 |              45 |         45.3333 |
+| 566 | female   | Mixed - White and Black African    | bachelor's degree             | free/reduced | completed          |           92 |             100 |             100 |         97.3333 |
+| 567 | female   | Mixed - White and Black Caribbean  | master's degree               | free/reduced | completed          |           61 |              71 |              78 |         70      |
+| 568 | male     | White - Irish                      | high school                   | free/reduced | none               |           63 |              48 |              47 |         52.6667 |
+| 569 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           68 |              68 |              67 |         67.6667 |
+| 570 | male     | White - Irish                      | some college                  | standard     | completed          |           71 |              75 |              70 |         72      |
+| 571 | male     | White - British                    | bachelor's degree             | standard     | none               |           91 |              96 |              92 |         93      |
+| 572 | female   | White - Any other White background | some college                  | standard     | none               |           53 |              62 |              56 |         57      |
+| 573 | female   | White - Any other White background | high school                   | free/reduced | completed          |           50 |              66 |              64 |         60      |
+| 574 | female   | Mixed - White and Black African    | high school                   | standard     | none               |           74 |              81 |              71 |         75.3333 |
+| 575 | male     | White - British                    | associate's degree            | free/reduced | completed          |           40 |              55 |              53 |         49.3333 |
+| 576 | male     | White - British                    | some college                  | standard     | completed          |           61 |              51 |              52 |         54.6667 |
+| 577 | female   | White - Irish                      | high school                   | standard     | none               |           81 |              91 |              89 |         87      |
+| 578 | female   | White - Irish                      | some college                  | free/reduced | completed          |           48 |              56 |              58 |         54      |
+| 579 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           53 |              61 |              68 |         60.6667 |
+| 580 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           81 |              97 |              96 |         91.3333 |
+| 581 | female   | Mixed - White and Black African    | some high school              | standard     | none               |           77 |              79 |              80 |         78.6667 |
+| 582 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           63 |              73 |              78 |         71.3333 |
+| 583 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           73 |              75 |              80 |         76      |
+| 584 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           69 |              77 |              77 |         74.3333 |
+| 585 | female   | White - Any other White background | associate's degree            | standard     | none               |           65 |              76 |              76 |         72.3333 |
+| 586 | female   | White - British                    | high school                   | standard     | none               |           55 |              73 |              73 |         67      |
+| 587 | female   | White - Any other White background | bachelor's degree             | free/reduced | none               |           44 |              63 |              62 |         56.3333 |
+| 588 | female   | White - Any other White background | some college                  | standard     | none               |           54 |              64 |              65 |         61      |
+| 589 | female   | White - British                    | some high school              | standard     | none               |           48 |              66 |              65 |         59.6667 |
+| 590 | male     | White - Any other White background | some college                  | free/reduced | none               |           58 |              57 |              54 |         56.3333 |
+| 591 | male     | White - British                    | some high school              | standard     | none               |           71 |              62 |              50 |         61      |
+| 592 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           68 |              68 |              64 |         66.6667 |
+| 593 | female   | Mixed - White and Black African    | high school                   | standard     | none               |           74 |              76 |              73 |         74.3333 |
+| 594 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           92 |             100 |              99 |         97      |
+| 595 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           56 |              79 |              72 |         69      |
+| 596 | male     | White - Irish                      | high school                   | free/reduced | none               |           30 |              24 |              15 |         23      |
+| 597 | male     | White - British                    | some high school              | standard     | none               |           53 |              54 |              48 |         51.6667 |
+| 598 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           69 |              77 |              73 |         73      |
+| 599 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           65 |              82 |              81 |         76      |
+| 600 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           54 |              60 |              63 |         59      |
+| 601 | female   | White - Any other White background | high school                   | standard     | none               |           29 |              29 |              30 |         29.3333 |
+| 602 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           76 |              78 |              80 |         78      |
+| 603 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           60 |              57 |              51 |         56      |
+| 604 | male     | Mixed - White and Black Caribbean  | master's degree               | free/reduced | completed          |           84 |              89 |              90 |         87.6667 |
+| 605 | male     | White - Any other White background | some high school              | standard     | none               |           75 |              72 |              62 |         69.6667 |
+| 606 | female   | White - Any other White background | associate's degree            | standard     | none               |           85 |              84 |              82 |         83.6667 |
+| 607 | female   | White - Any other White background | master's degree               | free/reduced | none               |           40 |              58 |              54 |         50.6667 |
+| 608 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           61 |              64 |              62 |         62.3333 |
+| 609 | female   | White - Irish                      | associate's degree            | standard     | none               |           58 |              63 |              65 |         62      |
+| 610 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           69 |              60 |              63 |         64      |
+| 611 | female   | White - Any other White background | some college                  | standard     | none               |           58 |              59 |              66 |         61      |
+| 612 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           94 |              90 |              91 |         91.6667 |
+| 613 | female   | White - Any other White background | associate's degree            | standard     | none               |           65 |              77 |              74 |         72      |
+| 614 | female   | White - British                    | associate's degree            | standard     | none               |           82 |              93 |              93 |         89.3333 |
+| 615 | female   | White - Any other White background | high school                   | standard     | none               |           60 |              68 |              72 |         66.6667 |
+| 616 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | none               |           37 |              45 |              38 |         40      |
+| 617 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           88 |              78 |              83 |         83      |
+| 618 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           95 |              81 |              84 |         86.6667 |
+| 619 | male     | White - Any other White background | associate's degree            | free/reduced | completed          |           65 |              73 |              68 |         68.6667 |
+| 620 | female   | White - Any other White background | high school                   | free/reduced | none               |           35 |              61 |              54 |         50      |
+| 621 | male     | White - Irish                      | bachelor's degree             | free/reduced | none               |           62 |              63 |              56 |         60.3333 |
+| 622 | male     | White - Any other White background | high school                   | free/reduced | completed          |           58 |              51 |              52 |         53.6667 |
+| 623 | male     | White - British                    | some college                  | standard     | completed          |          100 |              96 |              86 |         94      |
+| 624 | female   | Mixed - White and Black African    | bachelor's degree             | free/reduced | none               |           61 |              58 |              62 |         60.3333 |
+| 625 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |          100 |              97 |              99 |         98.6667 |
+| 626 | male     | White - Irish                      | associate's degree            | free/reduced | completed          |           69 |              70 |              63 |         67.3333 |
+| 627 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           61 |              48 |              46 |         51.6667 |
+| 628 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           49 |              57 |              46 |         50.6667 |
+| 629 | female   | White - Any other White background | some high school              | standard     | completed          |           44 |              51 |              55 |         50      |
+| 630 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           67 |              64 |              70 |         67      |
+| 631 | male     | White - Irish                      | high school                   | standard     | none               |           79 |              60 |              65 |         68      |
+| 632 | female   | White - Irish                      | bachelor's degree             | standard     | completed          |           66 |              74 |              81 |         73.6667 |
+| 633 | female   | White - Any other White background | high school                   | standard     | none               |           75 |              88 |              85 |         82.6667 |
+| 634 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           84 |              84 |              80 |         82.6667 |
+| 635 | male     | White - British                    | high school                   | standard     | none               |           71 |              74 |              64 |         69.6667 |
+| 636 | female   | White - Irish                      | high school                   | free/reduced | completed          |           67 |              80 |              81 |         76      |
+| 637 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           80 |              92 |              88 |         86.6667 |
+| 638 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           86 |              76 |              74 |         78.6667 |
+| 639 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           76 |              74 |              73 |         74.3333 |
+| 640 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           41 |              52 |              51 |         48      |
+| 641 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           74 |              88 |              90 |         84      |
+| 642 | female   | White - Irish                      | some high school              | free/reduced | none               |           72 |              81 |              79 |         77.3333 |
+| 643 | female   | Mixed - White and Black African    | high school                   | standard     | completed          |           74 |              79 |              80 |         77.6667 |
+| 644 | male     | White - Irish                      | high school                   | standard     | none               |           70 |              65 |              60 |         65      |
+| 645 | female   | White - Irish                      | bachelor's degree             | standard     | completed          |           65 |              81 |              81 |         75.6667 |
+| 646 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           59 |              70 |              65 |         64.6667 |
+| 647 | female   | Mixed - White and Black African    | high school                   | free/reduced | none               |           64 |              62 |              68 |         64.6667 |
+| 648 | female   | White - Irish                      | high school                   | standard     | none               |           50 |              53 |              55 |         52.6667 |
+| 649 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           69 |              79 |              81 |         76.3333 |
+| 650 | male     | White - Any other White background | some high school              | free/reduced | completed          |           51 |              56 |              53 |         53.3333 |
+| 651 | female   | White - British                    | high school                   | standard     | completed          |           68 |              80 |              76 |         74.6667 |
+| 652 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           85 |              86 |              98 |         89.6667 |
+| 653 | female   | White - British                    | associate's degree            | standard     | completed          |           65 |              70 |              74 |         69.6667 |
+| 654 | female   | White - Irish                      | some high school              | standard     | none               |           73 |              79 |              79 |         77      |
+| 655 | female   | White - Irish                      | some college                  | standard     | none               |           62 |              67 |              67 |         65.3333 |
+| 656 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           77 |              67 |              64 |         69.3333 |
+| 657 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           69 |              66 |              61 |         65.3333 |
+| 658 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           43 |              60 |              58 |         53.6667 |
+| 659 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           90 |              87 |              85 |         87.3333 |
+| 660 | male     | White - Any other White background | some college                  | free/reduced | none               |           74 |              77 |              73 |         74.6667 |
+| 661 | male     | White - Any other White background | some high school              | standard     | none               |           73 |              66 |              63 |         67.3333 |
+| 662 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           55 |              71 |              69 |         65      |
+| 663 | female   | White - Any other White background | high school                   | standard     | none               |           65 |              69 |              67 |         67      |
+| 664 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           80 |              63 |              63 |         68.6667 |
+| 665 | female   | White - Any other White background | some high school              | free/reduced | completed          |           50 |              60 |              60 |         56.6667 |
+| 666 | female   | White - Any other White background | some college                  | free/reduced | completed          |           63 |              73 |              71 |         69      |
+| 667 | female   | White - Irish                      | bachelor's degree             | free/reduced | none               |           77 |              85 |              87 |         83      |
+| 668 | male     | White - Any other White background | some college                  | standard     | none               |           73 |              74 |              61 |         69.3333 |
+| 669 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           81 |              72 |              77 |         76.6667 |
+| 670 | female   | White - Any other White background | high school                   | free/reduced | none               |           66 |              76 |              68 |         70      |
+| 671 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           52 |              57 |              50 |         53      |
+| 672 | female   | White - Any other White background | some college                  | standard     | none               |           69 |              78 |              76 |         74.3333 |
+| 673 | female   | White - Any other White background | associate's degree            | standard     | completed          |           65 |              84 |              84 |         77.6667 |
+| 674 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           69 |              77 |              78 |         74.6667 |
+| 675 | female   | White - Irish                      | some college                  | standard     | completed          |           50 |              64 |              66 |         60      |
+| 676 | female   | Mixed - White and Black African    | some college                  | standard     | completed          |           73 |              78 |              76 |         75.6667 |
+| 677 | female   | White - Any other White background | some high school              | standard     | completed          |           70 |              82 |              76 |         76      |
+| 678 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           81 |              75 |              78 |         78      |
+| 679 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           63 |              61 |              60 |         61.3333 |
+| 680 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           67 |              72 |              74 |         71      |
+| 681 | male     | White - Irish                      | high school                   | standard     | none               |           60 |              68 |              60 |         62.6667 |
+| 682 | male     | White - Irish                      | high school                   | standard     | none               |           62 |              55 |              54 |         57      |
+| 683 | female   | White - Any other White background | some high school              | free/reduced | completed          |           29 |              40 |              44 |         37.6667 |
+| 684 | male     | White - Irish                      | some college                  | standard     | completed          |           62 |              66 |              68 |         65.3333 |
+| 685 | female   | Mixed - White and Black African    | master's degree               | standard     | completed          |           94 |              99 |             100 |         97.6667 |
+| 686 | male     | Mixed - White and Black African    | some college                  | standard     | completed          |           85 |              75 |              68 |         76      |
+| 687 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           77 |              78 |              73 |         76      |
+| 688 | male     | White - British                    | high school                   | free/reduced | none               |           53 |              58 |              44 |         51.6667 |
+| 689 | male     | Mixed - White and Black African    | some college                  | free/reduced | none               |           93 |              90 |              83 |         88.6667 |
+| 690 | female   | White - Any other White background | associate's degree            | standard     | none               |           49 |              53 |              53 |         51.6667 |
+| 691 | female   | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           73 |              76 |              78 |         75.6667 |
+| 692 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           66 |              74 |              81 |         73.6667 |
+| 693 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           77 |              77 |              73 |         75.6667 |
+| 694 | female   | White - Any other White background | some high school              | standard     | none               |           49 |              63 |              56 |         56      |
+| 695 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           79 |              89 |              86 |         84.6667 |
+| 696 | female   | White - Any other White background | associate's degree            | standard     | completed          |           75 |              82 |              90 |         82.3333 |
+| 697 | female   | White - British                    | bachelor's degree             | standard     | none               |           59 |              72 |              70 |         67      |
+| 698 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           57 |              78 |              79 |         71.3333 |
+| 699 | male     | White - Any other White background | high school                   | free/reduced | none               |           66 |              66 |              59 |         63.6667 |
+| 700 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           79 |              81 |              82 |         80.6667 |
+| 701 | female   | White - Irish                      | some high school              | standard     | none               |           57 |              67 |              72 |         65.3333 |
+| 702 | male     | White - British                    | bachelor's degree             | standard     | completed          |           87 |              84 |              87 |         86      |
+| 703 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           63 |              64 |              67 |         64.6667 |
+| 704 | female   | White - Irish                      | some high school              | free/reduced | completed          |           59 |              63 |              64 |         62      |
+| 705 | male     | White - British                    | bachelor's degree             | free/reduced | none               |           62 |              72 |              65 |         66.3333 |
+| 706 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           46 |              34 |              36 |         38.6667 |
+| 707 | male     | White - Any other White background | some college                  | standard     | none               |           66 |              59 |              52 |         59      |
+| 708 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           89 |              87 |              79 |         85      |
+| 709 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           42 |              61 |              58 |         53.6667 |
+| 710 | male     | White - Any other White background | some college                  | standard     | completed          |           93 |              84 |              90 |         89      |
+| 711 | female   | Mixed - White and Black African    | some high school              | standard     | completed          |           80 |              85 |              85 |         83.3333 |
+| 712 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           98 |             100 |              99 |         99      |
+| 713 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           81 |              81 |              84 |         82      |
+| 714 | female   | White - Irish                      | some high school              | standard     | completed          |           60 |              70 |              74 |         68      |
+| 715 | female   | White - Irish                      | associate's degree            | free/reduced | completed          |           76 |              94 |              87 |         85.6667 |
+| 716 | male     | White - Any other White background | associate's degree            | standard     | completed          |           73 |              78 |              72 |         74.3333 |
+| 717 | female   | White - Any other White background | associate's degree            | standard     | completed          |           96 |              96 |              99 |         97      |
+| 718 | female   | White - Any other White background | high school                   | standard     | none               |           76 |              76 |              74 |         75.3333 |
+| 719 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           91 |              73 |              80 |         81.3333 |
+| 720 | female   | White - Any other White background | some college                  | free/reduced | none               |           62 |              72 |              70 |         68      |
+| 721 | male     | Mixed - White and Black Caribbean  | some high school              | free/reduced | completed          |           55 |              59 |              59 |         57.6667 |
+| 722 | female   | White - Irish                      | some high school              | free/reduced | completed          |           74 |              90 |              88 |         84      |
+| 723 | male     | White - Any other White background | high school                   | standard     | none               |           50 |              48 |              42 |         46.6667 |
+| 724 | male     | White - Irish                      | some college                  | standard     | none               |           47 |              43 |              41 |         43.6667 |
+| 725 | male     | Mixed - White and Black African    | some college                  | standard     | completed          |           81 |              74 |              71 |         75.3333 |
+| 726 | female   | Mixed - White and Black African    | associate's degree            | standard     | completed          |           65 |              75 |              77 |         72.3333 |
+| 727 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           68 |              51 |              57 |         58.6667 |
+| 728 | female   | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           73 |              92 |              84 |         83      |
+| 729 | male     | White - Any other White background | some college                  | standard     | none               |           53 |              39 |              37 |         43      |
+| 730 | female   | White - Irish                      | associate's degree            | free/reduced | completed          |           68 |              77 |              80 |         75      |
+| 731 | male     | White - British                    | some high school              | free/reduced | none               |           55 |              46 |              43 |         48      |
+| 732 | female   | White - Any other White background | some college                  | standard     | completed          |           87 |              89 |              94 |         90      |
+| 733 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           55 |              47 |              44 |         48.6667 |
+| 734 | female   | Mixed - White and Black African    | some college                  | free/reduced | none               |           53 |              58 |              57 |         56      |
+| 735 | male     | White - Any other White background | master's degree               | standard     | none               |           67 |              57 |              59 |         61      |
+| 736 | male     | White - Any other White background | associate's degree            | standard     | none               |           92 |              79 |              84 |         85      |
+| 737 | female   | White - Irish                      | some college                  | free/reduced | completed          |           53 |              66 |              73 |         64      |
+| 738 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           81 |              71 |              73 |         75      |
+| 739 | male     | White - Any other White background | high school                   | free/reduced | none               |           61 |              60 |              55 |         58.6667 |
+| 740 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           80 |              73 |              72 |         75      |
+| 741 | female   | White - British                    | associate's degree            | free/reduced | none               |           37 |              57 |              56 |         50      |
+| 742 | female   | White - Any other White background | high school                   | standard     | none               |           81 |              84 |              82 |         82.3333 |
+| 743 | female   | White - Any other White background | associate's degree            | standard     | completed          |           59 |              73 |              72 |         68      |
+| 744 | male     | White - Irish                      | some college                  | free/reduced | none               |           55 |              55 |              47 |         52.3333 |
+| 745 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           72 |              79 |              74 |         75      |
+| 746 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           69 |              75 |              71 |         71.6667 |
+| 747 | male     | White - Any other White background | some college                  | standard     | none               |           69 |              64 |              68 |         67      |
+| 748 | female   | White - Any other White background | bachelor's degree             | free/reduced | none               |           50 |              60 |              59 |         56.3333 |
+| 749 | male     | White - Irish                      | some college                  | standard     | completed          |           87 |              84 |              86 |         85.6667 |
+| 750 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           71 |              69 |              68 |         69.3333 |
+| 751 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           68 |              72 |              65 |         68.3333 |
+| 752 | male     | White - Any other White background | master's degree               | free/reduced | completed          |           79 |              77 |              75 |         77      |
+| 753 | female   | White - Any other White background | some high school              | standard     | completed          |           77 |              90 |              85 |         84      |
+| 754 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           58 |              55 |              53 |         55.3333 |
+| 755 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           84 |              95 |              92 |         90.3333 |
+| 756 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           55 |              58 |              52 |         55      |
+| 757 | male     | Mixed - White and Black African    | bachelor's degree             | free/reduced | completed          |           70 |              68 |              72 |         70      |
+| 758 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           52 |              59 |              65 |         58.6667 |
+| 759 | male     | White - Irish                      | some college                  | standard     | completed          |           69 |              77 |              77 |         74.3333 |
+| 760 | female   | White - Any other White background | high school                   | free/reduced | none               |           53 |              72 |              64 |         63      |
+| 761 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           48 |              58 |              54 |         53.3333 |
+| 762 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           78 |              81 |              86 |         81.6667 |
+| 763 | female   | White - Irish                      | high school                   | standard     | none               |           62 |              62 |              63 |         62.3333 |
+| 764 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           60 |              63 |              59 |         60.6667 |
+| 765 | female   | White - Irish                      | high school                   | standard     | none               |           74 |              72 |              72 |         72.6667 |
+| 766 | female   | White - Any other White background | high school                   | standard     | completed          |           58 |              75 |              77 |         70      |
+| 767 | male     | White - Irish                      | high school                   | standard     | completed          |           76 |              62 |              60 |         66      |
+| 768 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           68 |              71 |              75 |         71.3333 |
+| 769 | male     | White - British                    | some college                  | free/reduced | none               |           58 |              60 |              57 |         58.3333 |
+| 770 | male     | White - Irish                      | high school                   | standard     | none               |           52 |              48 |              49 |         49.6667 |
+| 771 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           75 |              73 |              74 |         74      |
+| 772 | female   | White - Irish                      | some high school              | free/reduced | completed          |           52 |              67 |              72 |         63.6667 |
+| 773 | female   | White - Any other White background | bachelor's degree             | free/reduced | none               |           62 |              78 |              79 |         73      |
+| 774 | male     | White - Irish                      | some college                  | standard     | none               |           66 |              65 |              60 |         63.6667 |
+| 775 | female   | White - Irish                      | some high school              | free/reduced | none               |           49 |              58 |              55 |         54      |
+| 776 | female   | White - Irish                      | high school                   | standard     | none               |           66 |              72 |              70 |         69.3333 |
+| 777 | female   | White - Any other White background | some college                  | free/reduced | none               |           35 |              44 |              43 |         40.6667 |
+| 778 | female   | White - British                    | some college                  | standard     | completed          |           72 |              79 |              82 |         77.6667 |
+| 779 | male     | Mixed - White and Black African    | associate's degree            | standard     | completed          |           94 |              85 |              82 |         87      |
+| 780 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           46 |              56 |              57 |         53      |
+| 781 | female   | White - Irish                      | master's degree               | standard     | none               |           77 |              90 |              84 |         83.6667 |
+| 782 | female   | White - Irish                      | high school                   | free/reduced | completed          |           76 |              85 |              82 |         81      |
+| 783 | female   | White - Any other White background | associate's degree            | standard     | completed          |           52 |              59 |              62 |         57.6667 |
+| 784 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           91 |              81 |              79 |         83.6667 |
+| 785 | female   | White - Irish                      | some high school              | standard     | completed          |           32 |              51 |              44 |         42.3333 |
+| 786 | female   | Mixed - White and Black African    | some high school              | free/reduced | none               |           72 |              79 |              77 |         76      |
+| 787 | female   | White - Irish                      | some college                  | standard     | none               |           19 |              38 |              32 |         29.6667 |
+| 788 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           68 |              65 |              61 |         64.6667 |
+| 789 | female   | White - Any other White background | master's degree               | free/reduced | none               |           52 |              65 |              61 |         59.3333 |
+| 790 | female   | White - Irish                      | high school                   | standard     | none               |           48 |              62 |              60 |         56.6667 |
+| 791 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           60 |              66 |              70 |         65.3333 |
+| 792 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           66 |              74 |              69 |         69.6667 |
+| 793 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           89 |              84 |              77 |         83.3333 |
+| 794 | female   | White - Irish                      | high school                   | standard     | none               |           42 |              52 |              51 |         48.3333 |
+| 795 | female   | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           57 |              68 |              73 |         66      |
+| 796 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           70 |              70 |              70 |         70      |
+| 797 | female   | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           70 |              84 |              81 |         78.3333 |
+| 798 | male     | Mixed - White and Black African    | some college                  | standard     | none               |           69 |              60 |              54 |         61      |
+| 799 | female   | White - Any other White background | associate's degree            | standard     | none               |           52 |              55 |              57 |         54.6667 |
+| 800 | male     | White - Any other White background | some high school              | standard     | completed          |           67 |              73 |              68 |         69.3333 |
+| 801 | male     | White - Any other White background | some high school              | standard     | completed          |           76 |              80 |              73 |         76.3333 |
+| 802 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           87 |              94 |              95 |         92      |
+| 803 | female   | White - Irish                      | some college                  | standard     | none               |           82 |              85 |              87 |         84.6667 |
+| 804 | female   | White - Any other White background | some college                  | standard     | none               |           73 |              76 |              78 |         75.6667 |
+| 805 | male     | White - British                    | some college                  | free/reduced | none               |           75 |              81 |              74 |         76.6667 |
+| 806 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           64 |              74 |              75 |         71      |
+| 807 | female   | Mixed - White and Black African    | high school                   | free/reduced | none               |           41 |              45 |              40 |         42      |
+| 808 | male     | White - Any other White background | high school                   | standard     | none               |           90 |              75 |              69 |         78      |
+| 809 | male     | White - Irish                      | bachelor's degree             | standard     | none               |           59 |              54 |              51 |         54.6667 |
+| 810 | male     | White - British                    | some high school              | standard     | none               |           51 |              31 |              36 |         39.3333 |
+| 811 | male     | White - British                    | high school                   | free/reduced | none               |           45 |              47 |              49 |         47      |
+| 812 | female   | White - Any other White background | master's degree               | standard     | completed          |           54 |              64 |              67 |         61.6667 |
+| 813 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           87 |              84 |              76 |         82.3333 |
+| 814 | female   | White - Any other White background | high school                   | standard     | none               |           72 |              80 |              83 |         78.3333 |
+| 815 | male     | White - Irish                      | some high school              | standard     | completed          |           94 |              86 |              87 |         89      |
+| 816 | female   | White - British                    | bachelor's degree             | standard     | none               |           45 |              59 |              64 |         56      |
+| 817 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | completed          |           61 |              70 |              76 |         69      |
+| 818 | female   | White - Irish                      | high school                   | free/reduced | none               |           60 |              72 |              68 |         66.6667 |
+| 819 | female   | White - Any other White background | some high school              | standard     | none               |           77 |              91 |              88 |         85.3333 |
+| 820 | female   | White - British                    | some high school              | standard     | completed          |           85 |              90 |              92 |         89      |
+| 821 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           78 |              90 |              93 |         87      |
+| 822 | male     | Mixed - White and Black African    | some college                  | free/reduced | completed          |           49 |              52 |              51 |         50.6667 |
+| 823 | female   | White - Irish                      | high school                   | free/reduced | none               |           71 |              87 |              82 |         80      |
+| 824 | female   | White - Any other White background | some high school              | free/reduced | none               |           48 |              58 |              52 |         52.6667 |
+| 825 | male     | White - Any other White background | high school                   | standard     | none               |           62 |              67 |              58 |         62.3333 |
+| 826 | female   | White - Any other White background | associate's degree            | free/reduced | completed          |           56 |              68 |              70 |         64.6667 |
+| 827 | female   | White - Any other White background | some high school              | standard     | none               |           65 |              69 |              76 |         70      |
+| 828 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | completed          |           69 |              86 |              81 |         78.6667 |
+| 829 | male     | White - Irish                      | some high school              | standard     | none               |           68 |              54 |              53 |         58.3333 |
+| 830 | female   | White - British                    | some college                  | free/reduced | none               |           61 |              60 |              57 |         59.3333 |
+| 831 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           74 |              86 |              89 |         83      |
+| 832 | male     | White - British                    | bachelor's degree             | standard     | none               |           64 |              60 |              58 |         60.6667 |
+| 833 | female   | White - Irish                      | high school                   | standard     | completed          |           77 |              82 |              89 |         82.6667 |
+| 834 | male     | White - Irish                      | some college                  | standard     | none               |           58 |              50 |              45 |         51      |
+| 835 | female   | White - Any other White background | high school                   | standard     | completed          |           60 |              64 |              74 |         66      |
+| 836 | male     | Mixed - White and Black African    | high school                   | standard     | none               |           73 |              64 |              57 |         64.6667 |
+| 837 | female   | White - British                    | high school                   | standard     | completed          |           75 |              82 |              79 |         78.6667 |
+| 838 | male     | White - Irish                      | associate's degree            | free/reduced | completed          |           58 |              57 |              53 |         56      |
+| 839 | female   | White - Any other White background | associate's degree            | standard     | none               |           66 |              77 |              73 |         72      |
+| 840 | female   | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           39 |              52 |              46 |         45.6667 |
+| 841 | male     | White - Any other White background | some high school              | standard     | none               |           64 |              58 |              51 |         57.6667 |
+| 842 | female   | White - Irish                      | high school                   | free/reduced | completed          |           23 |              44 |              36 |         34.3333 |
+| 843 | male     | White - Irish                      | some college                  | free/reduced | completed          |           74 |              77 |              76 |         75.6667 |
+| 844 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | completed          |           40 |              65 |              64 |         56.3333 |
+| 845 | male     | Mixed - White and Black African    | master's degree               | standard     | none               |           90 |              85 |              84 |         86.3333 |
+| 846 | male     | White - Any other White background | master's degree               | standard     | completed          |           91 |              85 |              85 |         87      |
+| 847 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           64 |              54 |              50 |         56      |
+| 848 | female   | White - Any other White background | high school                   | standard     | none               |           59 |              72 |              68 |         66.3333 |
+| 849 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           80 |              75 |              69 |         74.6667 |
+| 850 | male     | White - Any other White background | master's degree               | standard     | none               |           71 |              67 |              67 |         68.3333 |
+| 851 | female   | White - British                    | high school                   | standard     | none               |           61 |              68 |              63 |         64      |
+| 852 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           87 |              85 |              93 |         88.3333 |
+| 853 | male     | Mixed - White and Black African    | some high school              | standard     | none               |           82 |              67 |              61 |         70      |
+| 854 | male     | White - Any other White background | some high school              | standard     | none               |           62 |              64 |              55 |         60.3333 |
+| 855 | female   | White - Irish                      | bachelor's degree             | standard     | none               |           97 |              97 |              96 |         96.6667 |
+| 856 | male     | White - Irish                      | some college                  | free/reduced | none               |           75 |              68 |              65 |         69.3333 |
+| 857 | female   | White - Any other White background | bachelor's degree             | standard     | none               |           65 |              79 |              81 |         75      |
+| 858 | male     | White - Irish                      | high school                   | standard     | completed          |           52 |              49 |              46 |         49      |
+| 859 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           87 |              73 |              72 |         77.3333 |
+| 860 | female   | White - Any other White background | associate's degree            | standard     | none               |           53 |              62 |              53 |         56      |
+| 861 | female   | Mixed - White and Black African    | master's degree               | free/reduced | none               |           81 |              86 |              87 |         84.6667 |
+| 862 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | completed          |           39 |              42 |              38 |         39.6667 |
+| 863 | female   | White - Any other White background | some college                  | standard     | completed          |           71 |              71 |              80 |         74      |
+| 864 | male     | White - Any other White background | associate's degree            | standard     | none               |           97 |              93 |              91 |         93.6667 |
+| 865 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           82 |              82 |              88 |         84      |
+| 866 | male     | White - Any other White background | high school                   | free/reduced | none               |           59 |              53 |              52 |         54.6667 |
+| 867 | male     | White - Irish                      | associate's degree            | standard     | none               |           61 |              42 |              41 |         48      |
+| 868 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           78 |              74 |              72 |         74.6667 |
+| 869 | male     | White - Any other White background | associate's degree            | free/reduced | none               |           49 |              51 |              51 |         50.3333 |
+| 870 | male     | White - Irish                      | high school                   | standard     | none               |           59 |              58 |              47 |         54.6667 |
+| 871 | female   | White - Any other White background | some college                  | standard     | completed          |           70 |              72 |              76 |         72.6667 |
+| 872 | male     | White - Irish                      | associate's degree            | standard     | completed          |           82 |              84 |              78 |         81.3333 |
+| 873 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           90 |              90 |              82 |         87.3333 |
+| 874 | female   | White - Any other White background | bachelor's degree             | free/reduced | none               |           43 |              62 |              61 |         55.3333 |
+| 875 | male     | White - Any other White background | some college                  | free/reduced | none               |           80 |              64 |              66 |         70      |
+| 876 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           81 |              82 |              84 |         82.3333 |
+| 877 | male     | White - Any other White background | some high school              | standard     | none               |           57 |              61 |              54 |         57.3333 |
+| 878 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           59 |              72 |              80 |         70.3333 |
+| 879 | female   | Mixed - White and Black Caribbean  | associate's degree            | standard     | none               |           64 |              76 |              74 |         71.3333 |
+| 880 | male     | White - Any other White background | bachelor's degree             | standard     | completed          |           63 |              64 |              66 |         64.3333 |
+| 881 | female   | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           71 |              70 |              70 |         70.3333 |
+| 882 | female   | White - Irish                      | high school                   | free/reduced | none               |           64 |              73 |              71 |         69.3333 |
+| 883 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           55 |              46 |              44 |         48.3333 |
+| 884 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           51 |              51 |              54 |         52      |
+| 885 | female   | White - Any other White background | associate's degree            | standard     | completed          |           62 |              76 |              80 |         72.6667 |
+| 886 | female   | Mixed - White and Black African    | associate's degree            | standard     | completed          |           93 |             100 |              95 |         96      |
+| 887 | male     | White - Any other White background | high school                   | free/reduced | none               |           54 |              72 |              59 |         61.6667 |
+| 888 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           69 |              65 |              74 |         69.3333 |
+| 889 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           44 |              51 |              48 |         47.6667 |
+| 890 | female   | Mixed - White and Black African    | some college                  | standard     | completed          |           86 |              85 |              91 |         87.3333 |
+| 891 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           85 |              92 |              85 |         87.3333 |
+| 892 | female   | White - British                    | master's degree               | free/reduced | none               |           50 |              67 |              73 |         63.3333 |
+| 893 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           88 |              74 |              75 |         79      |
+| 894 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           59 |              62 |              69 |         63.3333 |
+| 895 | female   | Mixed - White and Black African    | some high school              | free/reduced | none               |           32 |              34 |              38 |         34.6667 |
+| 896 | male     | White - Irish                      | high school                   | free/reduced | none               |           36 |              29 |              27 |         30.6667 |
+| 897 | female   | White - Irish                      | some high school              | free/reduced | completed          |           63 |              78 |              79 |         73.3333 |
+| 898 | male     | Mixed - White and Black Caribbean  | associate's degree            | standard     | completed          |           67 |              54 |              63 |         61.3333 |
+| 899 | female   | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           65 |              78 |              82 |         75      |
+| 900 | male     | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           85 |              84 |              89 |         86      |
+| 901 | female   | White - Any other White background | master's degree               | standard     | none               |           73 |              78 |              74 |         75      |
+| 902 | female   | White - British                    | high school                   | free/reduced | completed          |           34 |              48 |              41 |         41      |
+| 903 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | completed          |           93 |             100 |             100 |         97.6667 |
+| 904 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           67 |              84 |              84 |         78.3333 |
+| 905 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           88 |              77 |              77 |         80.6667 |
+| 906 | male     | White - Irish                      | high school                   | standard     | none               |           57 |              48 |              51 |         52      |
+| 907 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           79 |              84 |              91 |         84.6667 |
+| 908 | female   | White - Any other White background | bachelor's degree             | free/reduced | none               |           67 |              75 |              72 |         71.3333 |
+| 909 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |           70 |              64 |              70 |         68      |
+| 910 | male     | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           50 |              42 |              48 |         46.6667 |
+| 911 | female   | White - British                    | some college                  | standard     | none               |           69 |              84 |              82 |         78.3333 |
+| 912 | female   | White - Any other White background | bachelor's degree             | standard     | completed          |           52 |              61 |              66 |         59.6667 |
+| 913 | female   | White - Any other White background | bachelor's degree             | free/reduced | completed          |           47 |              62 |              66 |         58.3333 |
+| 914 | female   | White - Irish                      | associate's degree            | free/reduced | none               |           46 |              61 |              55 |         54      |
+| 915 | female   | Mixed - White and Black African    | some college                  | standard     | none               |           68 |              70 |              66 |         68      |
+| 916 | male     | Mixed - White and Black African    | bachelor's degree             | standard     | completed          |          100 |             100 |             100 |        100      |
+| 917 | female   | White - Any other White background | high school                   | standard     | none               |           44 |              61 |              52 |         52.3333 |
+| 918 | female   | White - Any other White background | associate's degree            | standard     | completed          |           57 |              77 |              80 |         71.3333 |
+| 919 | male     | White - Irish                      | some college                  | standard     | completed          |           91 |              96 |              91 |         92.6667 |
+| 920 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           69 |              70 |              67 |         68.6667 |
+| 921 | female   | White - Any other White background | high school                   | free/reduced | none               |           35 |              53 |              46 |         44.6667 |
+| 922 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           72 |              66 |              66 |         68      |
+| 923 | female   | White - Irish                      | associate's degree            | free/reduced | none               |           54 |              65 |              65 |         61.3333 |
+| 924 | male     | Mixed - White and Black Caribbean  | high school                   | free/reduced | none               |           74 |              70 |              69 |         71      |
+| 925 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           74 |              64 |              60 |         66      |
+| 926 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | none               |           64 |              56 |              52 |         57.3333 |
+| 927 | female   | Mixed - White and Black Caribbean  | high school                   | free/reduced | completed          |           65 |              61 |              71 |         65.6667 |
+| 928 | male     | Mixed - White and Black African    | associate's degree            | free/reduced | completed          |           46 |              43 |              44 |         44.3333 |
+| 929 | female   | White - Any other White background | some high school              | free/reduced | none               |           48 |              56 |              51 |         51.6667 |
+| 930 | male     | White - Any other White background | some college                  | free/reduced | completed          |           67 |              74 |              70 |         70.3333 |
+| 931 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           62 |              57 |              62 |         60.3333 |
+| 932 | male     | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | completed          |           61 |              71 |              73 |         68.3333 |
+| 933 | male     | White - Any other White background | bachelor's degree             | free/reduced | completed          |           70 |              75 |              74 |         73      |
+| 934 | male     | White - Any other White background | associate's degree            | standard     | completed          |           98 |              87 |              90 |         91.6667 |
+| 935 | male     | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           70 |              63 |              58 |         63.6667 |
+| 936 | male     | White - British                    | associate's degree            | standard     | none               |           67 |              57 |              53 |         59      |
+| 937 | female   | Mixed - White and Black African    | high school                   | free/reduced | none               |           57 |              58 |              57 |         57.3333 |
+| 938 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           85 |              81 |              85 |         83.6667 |
+| 939 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | completed          |           77 |              68 |              69 |         71.3333 |
+| 940 | male     | White - Any other White background | master's degree               | free/reduced | completed          |           72 |              66 |              72 |         70      |
+| 941 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           78 |              91 |              96 |         88.3333 |
+| 942 | male     | White - Any other White background | high school                   | standard     | none               |           81 |              66 |              64 |         70.3333 |
+| 943 | male     | White - British                    | some high school              | free/reduced | completed          |           61 |              62 |              61 |         61.3333 |
+| 944 | female   | White - Irish                      | high school                   | standard     | none               |           58 |              68 |              61 |         62.3333 |
+| 945 | female   | White - Any other White background | associate's degree            | standard     | none               |           54 |              61 |              58 |         57.6667 |
+| 946 | male     | White - Irish                      | high school                   | standard     | none               |           82 |              82 |              80 |         81.3333 |
+| 947 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           49 |              58 |              60 |         55.6667 |
+| 948 | male     | White - Irish                      | some high school              | free/reduced | completed          |           49 |              50 |              52 |         50.3333 |
+| 949 | female   | Mixed - White and Black African    | high school                   | free/reduced | completed          |           57 |              75 |              73 |         68.3333 |
+| 950 | male     | Mixed - White and Black African    | high school                   | standard     | none               |           94 |              73 |              71 |         79.3333 |
+| 951 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           75 |              77 |              83 |         78.3333 |
+| 952 | female   | Mixed - White and Black African    | some high school              | free/reduced | none               |           74 |              74 |              72 |         73.3333 |
+| 953 | male     | White - Any other White background | high school                   | standard     | completed          |           58 |              52 |              54 |         54.6667 |
+| 954 | female   | White - Any other White background | some college                  | standard     | none               |           62 |              69 |              69 |         66.6667 |
+| 955 | male     | Mixed - White and Black African    | associate's degree            | standard     | none               |           72 |              57 |              62 |         63.6667 |
+| 956 | male     | White - Any other White background | some college                  | standard     | none               |           84 |              87 |              81 |         84      |
+| 957 | female   | Mixed - White and Black Caribbean  | master's degree               | standard     | none               |           92 |             100 |             100 |         97.3333 |
+| 958 | female   | Mixed - White and Black Caribbean  | high school                   | standard     | none               |           45 |              63 |              59 |         55.6667 |
+| 959 | male     | White - Any other White background | high school                   | standard     | none               |           75 |              81 |              71 |         75.6667 |
+| 960 | female   | White - British                    | some college                  | standard     | none               |           56 |              58 |              64 |         59.3333 |
+| 961 | female   | Mixed - White and Black Caribbean  | some high school              | free/reduced | none               |           48 |              54 |              53 |         51.6667 |
+| 962 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |          100 |             100 |             100 |        100      |
+| 963 | female   | White - Any other White background | some high school              | free/reduced | completed          |           65 |              76 |              75 |         72      |
+| 964 | male     | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           72 |              57 |              58 |         62.3333 |
+| 965 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | none               |           62 |              70 |              72 |         68      |
+| 966 | male     | White - British                    | some high school              | standard     | completed          |           66 |              68 |              64 |         66      |
+| 967 | male     | White - Any other White background | some college                  | standard     | none               |           63 |              63 |              60 |         62      |
+| 968 | female   | Mixed - White and Black African    | associate's degree            | standard     | none               |           68 |              76 |              67 |         70.3333 |
+| 969 | female   | White - Irish                      | bachelor's degree             | standard     | none               |           75 |              84 |              80 |         79.6667 |
+| 970 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | standard     | none               |           89 |             100 |             100 |         96.3333 |
+| 971 | male     | White - Any other White background | some high school              | standard     | completed          |           78 |              72 |              69 |         73      |
+| 972 | female   | White - British                    | high school                   | free/reduced | completed          |           53 |              50 |              60 |         54.3333 |
+| 973 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           49 |              65 |              61 |         58.3333 |
+| 974 | female   | White - British                    | some college                  | standard     | none               |           54 |              63 |              67 |         61.3333 |
+| 975 | female   | White - Any other White background | some college                  | standard     | completed          |           64 |              82 |              77 |         74.3333 |
+| 976 | male     | White - Irish                      | some college                  | free/reduced | completed          |           60 |              62 |              60 |         60.6667 |
+| 977 | male     | White - Any other White background | associate's degree            | standard     | none               |           62 |              65 |              58 |         61.6667 |
+| 978 | male     | Mixed - White and Black Caribbean  | high school                   | standard     | completed          |           55 |              41 |              48 |         48      |
+| 979 | female   | White - Any other White background | associate's degree            | standard     | none               |           91 |              95 |              94 |         93.3333 |
+| 980 | female   | White - Irish                      | high school                   | free/reduced | none               |            8 |              24 |              23 |         18.3333 |
+| 981 | male     | Mixed - White and Black Caribbean  | some high school              | standard     | none               |           81 |              78 |              78 |         79      |
+| 982 | male     | White - Irish                      | some high school              | standard     | completed          |           79 |              85 |              86 |         83.3333 |
+| 983 | female   | White - British                    | some college                  | standard     | completed          |           78 |              87 |              91 |         85.3333 |
+| 984 | female   | White - Any other White background | some high school              | standard     | none               |           74 |              75 |              82 |         77      |
+| 985 | male     | White - British                    | high school                   | standard     | none               |           57 |              51 |              54 |         54      |
+| 986 | female   | White - Any other White background | associate's degree            | standard     | none               |           40 |              59 |              51 |         50      |
+| 987 | male     | Mixed - White and Black African    | some high school              | standard     | completed          |           81 |              75 |              76 |         77.3333 |
+| 988 | female   | White - British                    | some high school              | free/reduced | none               |           44 |              45 |              45 |         44.6667 |
+| 989 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | completed          |           67 |              86 |              83 |         78.6667 |
+| 990 | male     | Mixed - White and Black African    | high school                   | free/reduced | completed          |           86 |              81 |              75 |         80.6667 |
+| 991 | female   | White - Irish                      | some high school              | standard     | completed          |           65 |              82 |              78 |         75      |
+| 992 | female   | Mixed - White and Black Caribbean  | associate's degree            | free/reduced | none               |           55 |              76 |              76 |         69      |
+| 993 | female   | Mixed - White and Black Caribbean  | bachelor's degree             | free/reduced | none               |           62 |              72 |              74 |         69.3333 |
+| 994 | male     | White - British                    | high school                   | standard     | none               |           63 |              63 |              62 |         62.6667 |
+| 995 | female   | Mixed - White and Black African    | master's degree               | standard     | completed          |           88 |              99 |              95 |         94      |
+| 996 | male     | White - Any other White background | high school                   | free/reduced | none               |           62 |              55 |              55 |         57.3333 |
+| 997 | female   | White - Any other White background | high school                   | free/reduced | completed          |           59 |              71 |              65 |         65      |
+| 998 | female   | Mixed - White and Black Caribbean  | some college                  | standard     | completed          |           68 |              78 |              77 |         74.3333 |
+| 999 | female   | Mixed - White and Black Caribbean  | some college                  | free/reduced | none               |           77 |              86 |              86 |         83      |
